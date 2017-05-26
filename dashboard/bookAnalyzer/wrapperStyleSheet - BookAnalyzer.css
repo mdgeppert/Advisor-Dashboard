@@ -1,0 +1,105 @@
+﻿html{
+    overflow: hidden;
+}
+
+#top{
+    margin-top: 0;
+    background: #DEDEDE
+}
+
+#bottom{
+    overflow: auto;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+#wrapper1{
+    left: 0;
+    right: 0;
+    height: 80px;
+    top: 0;
+    position:  fixed;
+    background: #FFFFFF;
+}
+
+#glass{
+    margin-top: 3px;
+}
+
+#pad{
+    margin-top: 3px;
+    fill: #d5d5d5
+}
+#titleBlackStrip{
+    width: 24.5%;
+    height: 20px;
+    margin-top: 20px;
+    left: 15%;
+    position: absolute;
+}
+
+#titleBlack {
+    width: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 32px;
+    font-family: Georgia;
+    position: absolute;
+}
+
+#titleOrange{
+    font-family: Georgia;
+    float: left;
+    color: #ED8800;
+    font-size: 32px;
+    left: 215px;
+    position: absolute;
+}
+ #topIconStrip{
+     left: 65%;
+     margin-top: 5px;
+     height: 0;
+     width: 420px;
+     padding: 20px 0 0 30px;
+     position: absolute;
+ }
+.icon {
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF; 
+}
+
+.icon:hover {
+    width: 50px;
+    height: 50px;
+    background: #B4B5B7;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF; ;
+}
+
+#circledCheck{
+    margin-left: -3px;
+    margin-top: 2px;
+    fill: #000000;
+}
+
+#calendar{
+    margin-left: -4px;
+    margin-top: 2px;
+    fill:#000000;
+}
+
+#quoteBubble{
+    margin-top: 2px;
+    margin-left: -2px;
+    fill: #00ffee;
+}
+
+#cogWheel{
+    margin-left: -3px;
+    margin-top: 2px;
+    fill: #000000;
+}

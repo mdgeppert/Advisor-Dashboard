@@ -1,0 +1,44 @@
+﻿#whiteStrip {
+    margin-top: 107px;
+    left: 70px;
+    right: 0;
+    height: 35px;
+    background: #FFFFFF;
+    position: fixed;
+}
+
+#hangingMenu {
+    margin-top: 0;
+    margin-left: 710px;
+    position: absolute fixed;
+}
+
+#hangingTabLeft {
+    display: inline;
+    height: 26px;
+    font: 10px arial;
+    text-decoration: none;
+}
+
+    #hangingTabLeft:hover {
+        display: inline;
+        height: 26px;
+        font: 10px arial;
+        color: royalblue;
+    }
+
+#hangingTabRight {
+    display: inline;
+    font: 10px arial;
+    padding: 3px;
+}
+
+    #hangingTabRight:hover {
+        display: inline;
+        font: 10px arial;
+        padding: 3px;
+        color: royalblue;
+    }
+    a:link {
+        text-decoration: none;
+    }

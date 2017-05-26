@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Main Dashboard</title>
+
+    <!--jQuery References-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://localhost:63100/Scripts/jquery-2.1.4.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="leftBarStyle - MainDashboard.css" />
+    <link rel="stylesheet" type="text/css" href="wrapperStyle - MainDashboard.css" />
+    <link rel="stylesheet" type="text/css" href="mainMenuStyle - MainDashboard.css" />
+    <link rel="stylesheet" type="text/css" href="searchBarStyle - MainDashboard.css" />
+    <link rel="stylesheet" type="text/css" href="bottomSectionStyle - MainDashboard.css" />
+    <!-- V2.2 -->
+</head> 
+<body style="overflow: auto;">
+    <div class="container-fluid">
+        <!--Wrapper-->
+        <div class="row">
+            <div id="wrapper1">
+                <div class="col-sm-6">
+                    <div id="titleBlackStrip">
+                        <p id="titleBlack">
+                            Practice Management <span id="titleOrange">Dashboard</span>
+                        </p>
+                    </div>
+                   
+                </div>
+                <div class="col-sm-6">
+                    <div id="topIconStrip">
+                        <button type="button" class="icon">
+                            <svg version="1.1" height="30" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="2px" y="9px"
+                                 viewBox="0 0 612.002 612.002" style="enable-background:new 0 0 612.002 612.002;" xml:space="preserve">
+                            <g>
+                            <path d="M542.657,70.369c-44.714-44.714-104.163-69.341-167.4-69.341S252.569,25.655,207.855,70.369
+		                                                            c-80.234,80.231-90.686,204.181-31.439,295.856L14.032,528.606c-18.709,18.706-18.709,49.144,0,67.853l0.463,0.463
+		                                                            c9.062,9.059,21.109,14.052,33.925,14.052s24.863-4.993,33.928-14.055l161.887-161.89c38.497,25.684,83.698,39.481,131.024,39.481
+		                                                            c63.237,0,122.686-24.624,167.4-69.341c44.717-44.714,69.344-104.166,69.344-167.403S587.374,115.083,542.657,70.369z
+		                                                             M520.412,382.926c-38.77,38.77-90.321,60.122-145.154,60.122s-106.384-21.352-145.154-60.122
+		                                                            c-80.039-80.039-80.039-210.273,0-290.312c38.77-38.77,90.321-60.122,145.154-60.122s106.384,21.352,145.154,60.122
+		                                                            s60.125,90.322,60.125,145.154S559.182,344.153,520.412,382.926z M222.728,253.504c-8.687,0-15.732-7.042-15.732-15.732
+		                                                            c0-92.779,75.483-168.262,168.262-168.262c8.69,0,15.732,7.042,15.732,15.732s-7.042,15.732-15.732,15.732
+		                                                            c-75.429,0-136.797,61.368-136.797,136.797C238.46,246.459,231.415,253.504,222.728,253.504z" />
+                                                            </g>
+                                                            </svg>
+                            <script type="text/javascript" src="MarketsAndAdvice-magnafindSearchScript.js">
+                            </script>
+                        </button>
+
+
+                        <button type="button" class="icon">
+                            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="2px" y="10px"
+                                 width="30px" height="30px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                            <g>
+                            <g>
+                            <path d="M48.036,15.73L48.036,15.73l-3.313,5.738v22.976c0,0.144-0.135,0.279-0.277,0.279H5.556c-0.143,0-0.278-0.136-0.278-0.279
+			                                                            V5.556c0-0.143,0.135-0.278,0.278-0.278h28.42l1.291-2.235l0,0l0.744-1.29C36.395,1.088,36.877,0.507,37.425,0H5.556
+			                                                            C2.492,0,0,2.492,0,5.556v38.889C0,47.508,2.492,50,5.556,50h38.889C47.508,50,50,47.508,50,44.443V12.326L48.036,15.73z" />
+                            <polygon points="25.889,26.23 25.943,36.589 34.943,31.461 45.594,13.013 36.538,7.785 		" />
+                            <path d="M48.076,8.714c1.25-2.167,0.232-5.087-2.268-6.531s-5.539-0.865-6.791,1.304l-1.31,2.273l9.058,5.227L48.076,8.714z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button" class="icon">
+                            <svg version="1.1" id="circledCheck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-210px" y="5px"
+                                 width="30px" height="30px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                            <polygon points="211.344,306.703 160,256 128,288 211.414,368 384,176 351.703,144 	" />
+                            <path d="M256,0C114.609,0,0,114.609,0,256c0,141.391,114.609,256,256,256c141.391,0,256-114.609,256-256
+		                                                            C512,114.609,397.391,0,256,0z M256,472c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z
+		                                                            " />
+                                                            </g>
+                                                            </svg>
+                        </button>
+
+                        <button type="button" class="icon">
+                            <svg version="1.1" id="calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30px" height="30" viewBox="0 0 276.338 276.338" style="enable-background:new 0 0 276.338 276.338;"
+                                 xml:space="preserve">
+                            <g>
+                            <g>
+                            <path d="M267.207,99.838v-37.64v-4.123c0-21.569-19.036-39.141-42.689-39.748v0.005v9.549v0.009v9.6v0.019v5.454
+			                                                            c0,13.999-11.388,25.387-25.384,25.387c-13.997,0-25.385-11.388-25.385-25.387v-5.582v-9.558v-9.558h-71.98v9.558v9.558v5.582
+			                                                            c0,13.999-11.388,25.387-25.386,25.387c-13.997,0-25.384-11.388-25.384-25.387v-5.372v-0.033v-9.631v-0.009V18.37V18.36
+			                                                            C27.737,19.345,9.131,36.756,9.131,58.07v4.123v37.64v132.573c0,24.218,19.709,43.932,43.929,43.932h170.216
+			                                                            c24.217,0,43.927-19.714,43.927-43.932V99.838H267.207z M248.09,232.411c0,13.684-11.131,24.811-24.814,24.811H53.065
+			                                                            c-13.682,0-24.812-11.127-24.812-24.811V99.838H248.09V232.411z" />
+                            <path d="M65.339,11.049v7.215v9.558v9.558v5.582c0,6.104,4.945,11.049,11.049,11.049c6.102,0,11.049-4.945,11.049-11.049v-5.582
+			                                                            v-9.558v-9.558v-7.215C87.438,4.945,82.491,0,76.389,0C70.284,0.005,65.339,4.95,65.339,11.049z" />
+                            <path d="M199.137,0.005c-6.104,0-11.051,4.945-11.051,11.049v7.215v9.558v9.558v5.582c0,6.104,4.946,11.049,11.051,11.049
+			                                                            s11.052-4.945,11.052-11.049v-5.587v-9.558v-9.558v-7.215C210.18,4.95,205.238,0.005,199.137,0.005z" />
+                            <path d="M106.19,231.87c12.463,0,21.875-3.481,28.238-10.445c6.352-6.963,9.535-15.037,9.535-24.222
+			                                                            c0-8.737-2.719-15.626-8.163-20.666c-1.477-1.354-2.814-2.437-4.009-3.239c-2.188-1.475-2.352-2.529-0.292-4.125
+			                                                            c1.157-0.901,2.294-1.988,3.407-3.268c3.794-4.392,5.691-9.782,5.691-16.176c0-9.026-3.171-16.23-9.532-21.597
+			                                                            s-14.725-8.048-25.095-8.048c-5.582,0-10.296,0.674-14.137,2.021c-3.839,1.349-7.15,3.292-9.945,5.841
+			                                                            c-3.739,3.594-6.48,7.512-8.23,11.759c-1.15,3.388-1.949,6.921-2.39,10.584c-0.315,2.623,1.769,4.761,4.406,4.761h10.356
+			                                                            c2.64,0,4.674-2.156,5.057-4.77c0.465-3.174,1.505-5.853,3.116-8.032c2.366-3.192,6.065-4.793,11.093-4.793
+			                                                            c4.383,0,7.775,1.297,10.193,3.893c2.408,2.595,3.619,5.964,3.619,10.108c0,6.395-2.366,10.637-7.089,12.732
+			                                                            c-2.053,0.933-5.29,1.544-9.696,1.838c-2.632,0.168-4.774,2.324-4.774,4.957v5.717c0,2.637,2.147,4.756,4.784,4.9
+			                                                            c4.669,0.248,8.254,0.878,10.744,1.899c5.773,2.399,8.66,7.169,8.66,14.3c0,5.396-1.559,9.521-4.669,12.396
+			                                                            c-3.11,2.87-6.763,4.303-10.944,4.303c-6.823,0-11.532-2.618-14.118-7.859c-0.845-1.731-1.433-3.733-1.767-6.011
+			                                                            c-0.383-2.614-2.462-4.771-5.106-4.771H73.726c-2.639,0-4.718,2.138-4.427,4.761c0.714,6.478,2.343,11.878,4.879,16.194
+			                                                            C80.157,226.853,90.831,231.87,106.19,231.87z" />
+                            <path d="M165.582,154.303h15.976c2.637,0,4.778,2.138,4.778,4.779v65.312c0,2.637,2.143,4.779,4.779,4.779h12.308
+			                                                            c2.637,0,4.778-2.143,4.778-4.779v-99.005c0-2.637-2.142-4.779-4.778-4.779h-8.266c-2.637,0-4.812,0.994-5.064,2.188
+			                                                            c-0.135,0.63-0.312,1.349-0.541,2.151c-0.942,3.244-2.343,5.839-4.182,7.785c-2.688,2.842-6.175,4.739-10.454,5.691
+			                                                            c-1.997,0.448-5.115,0.808-9.344,1.092c-2.632,0.168-4.77,2.399-4.77,5.031v4.966
+			                                                            C160.802,152.161,162.949,154.303,165.582,154.303z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button" class="icon">
+                            <svg version="1.1" id="quoteBubble" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30" height="30" viewBox="0 0 435.244 435.244" style="enable-background:new 0 0 435.244 435.244;"
+                                 xml:space="preserve">
+                            <g>
+                            <g>
+                            <path style="fill:#030303;" d="M75.146,425.343v-96.354C27.281,294.43,0,244.745,0,191.603C0,91.414,97.624,9.901,217.622,9.901
+			                                                            s217.622,81.513,217.622,181.701c0,100.186-97.624,181.701-217.622,181.701c-14.218,0-28.533-1.189-42.631-3.539L75.146,425.343z
+			                                                             M217.622,39.177c-103.854,0-188.346,68.379-188.346,152.425c0,45.561,25.014,88.418,68.636,117.568l6.504,4.346v62.022
+			                                                            l65.497-36.452l5.2,0.973c14.021,2.63,28.321,3.968,42.508,3.968c103.856,0,188.346-68.376,188.346-152.425
+			                                                            C405.968,107.556,321.479,39.177,217.622,39.177z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button" class="icon">
+                            <svg version="1.1" id="cogWheel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30" height="30" viewBox="0 0 896.025 896.025" style="enable-background:new 0 0 896.025 896.025;"
+                                 xml:space="preserve">
+                            <g>
+                            <path id="settings_1_" d="M863.24,382.771l-88.759-14.807c-6.451-26.374-15.857-51.585-28.107-75.099l56.821-70.452
+		                                                            c12.085-14.889,11.536-36.312-1.205-50.682l-35.301-39.729c-12.796-14.355-34.016-17.391-50.202-7.165l-75.906,47.716
+		                                                            c-33.386-23.326-71.204-40.551-112-50.546l-14.85-89.235c-3.116-18.895-19.467-32.759-38.661-32.759h-53.198
+		                                                            c-19.155,0-35.561,13.864-38.608,32.759l-14.931,89.263c-33.729,8.258-65.353,21.588-94.213,39.144l-72.188-51.518
+		                                                            c-15.558-11.115-36.927-9.377-50.504,4.171l-37.583,37.61c-13.548,13.577-15.286,34.946-4.142,50.504l51.638,72.326
+		                                                            c-17.391,28.642-30.584,60.086-38.841,93.515l-89.743,14.985C13.891,385.888,0,402.24,0,421.435v53.156
+		                                                            c0,19.193,13.891,35.547,32.757,38.663l89.743,14.985c6.781,27.508,16.625,53.784,29.709,78.147L95.647,676.44
+		                                                            c-12.044,14.875-11.538,36.312,1.203,50.669l35.274,39.73c12.797,14.382,34.028,17.363,50.216,7.163l77-48.37
+		                                                            c32.581,22.285,69.44,38.664,108.993,48.37l14.931,89.25c3.048,18.896,19.453,32.76,38.608,32.76h53.198
+		                                                            c19.194,0,35.545-13.863,38.661-32.759l14.875-89.25c33.308-8.147,64.531-21.245,93.134-38.5l75.196,53.705
+		                                                            c15.53,11.155,36.915,9.405,50.478-4.186l37.598-37.597c13.532-13.536,15.365-34.893,4.127-50.479l-53.536-75.059
+		                                                            c17.441-28.738,30.704-60.238,38.909-93.816l88.758-14.82c18.921-3.116,32.756-19.469,32.756-38.663v-53.156
+		                                                            C895.998,402.24,882.163,385.888,863.24,382.771z M449.42,616.013c-92.764,0-168-75.25-168-168c0-92.764,75.236-168,168-168
+		                                                            c92.748,0,167.998,75.236,167.998,168C617.418,540.763,542.168,616.013,449.42,616.013z" />
+                                                            </g>
+                                                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> <!-----------------------End Wrapper-------------------------->
+        <!--Main Menu-->
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="menuBar">
+                        <div id="mainMenuTabs">
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 8vw">Main Dashboard</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 9.5vw">Household Dashboard</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 4.5vw">Accounts</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 4vw">People</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 10vw">Service & Segmentation</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 7.5vw">Goals & Planning</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 5vw">Documents</button>
+                            <button type="button"  class="inactiveMainMenuTab" style="width: 6.75vw">Activity Stream</button>
+                        </div>
+                    </div>
+            </div>
+        </div> <!----------------------End Main Menu-------------------------->
+        <!--Branch/FA Seach Bar-->
+        <div class="row">
+            <div class="branchBar">
+                <div id="branchSearchHousing">
+                    <span class="advisorDashboard">Advisor Dashboard</span>
+                    <span class="subFirmText">SubFirm:</span>
+                    <select class="subFirm"></select>
+                    <span class="branchTitle">Branch:</span>
+                    <select class="branch"></select>
+                    <span class="faText">FA:</span>
+                    <select class="fa"></select>
+                    <button class="faButton"><span id="go">Go</span></button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="bottom">
+                <div class="col-md-5">
+                    <div id="boxColumnLeft">
+                        <span class="text">
+                            In The News
+                        </span>
+                        <svg version="1.1" id="collapseITN" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 577.732 577.732" style="enable-background:new 0 0 577.732 577.732;" xml:space="preserve">
+                        <g>
+                        <g>
+                        <path style="fill:#E5E5E5;" d="M439.418,246.024c0-4.08-1.326-7.548-3.978-10.404s-6.021-4.284-10.101-4.284h-272.95
+			                                                            c-4.08,0-7.548,1.428-10.404,4.284s-4.284,6.324-4.284,10.404v85.68c0,4.08,1.428,7.548,4.284,10.404
+			                                                            c2.856,2.854,6.324,4.284,10.404,4.284h272.953c4.08,0,7.446-1.431,10.101-4.284c2.649-2.856,3.978-6.324,3.978-10.404
+			                                                            L439.418,246.024L439.418,246.024z M288.866,0c39.576,0,76.908,7.548,111.996,22.646c35.088,15.096,65.79,35.802,92.104,62.118
+			                                                            c26.316,26.316,47.022,57.018,62.118,92.106c15.096,35.088,22.646,72.42,22.646,111.996c0,39.984-7.55,77.418-22.646,112.302
+			                                                            c-15.096,34.886-35.802,65.484-62.118,91.8c-26.313,26.316-57.018,47.022-92.104,62.118
+			                                                            c-35.089,15.099-72.42,22.646-111.996,22.646c-39.984,0-77.521-7.548-112.608-22.646c-35.088-15.096-65.688-35.802-91.8-62.118
+			                                                            c-26.112-26.313-46.716-56.916-61.812-91.8C7.55,366.284,0.002,328.849,0.002,288.864c0-39.576,7.548-76.908,22.644-111.996
+			                                                            s35.7-65.79,61.812-92.106s56.712-47.022,91.8-62.118C211.346,7.548,248.882,0,288.866,0z M288.866,76.5
+			                                                            c-29.376,0-56.916,5.61-82.62,16.83s-48.144,26.418-67.32,45.594s-34.374,41.616-45.594,67.32s-16.83,53.244-16.83,82.62
+			                                                            s5.61,56.916,16.83,82.62c11.22,25.704,26.418,48.144,45.594,67.32s41.616,34.374,67.32,45.594s53.244,16.83,82.62,16.83
+			                                                            s56.916-5.61,82.62-16.83c25.703-11.22,48.144-26.418,67.317-45.594c19.179-19.179,34.374-41.616,45.597-67.32
+			                                                            c11.22-25.704,16.83-53.244,16.83-82.62s-5.61-56.916-16.83-82.62c-11.223-25.704-26.418-48.144-45.597-67.32
+			                                                            c-19.176-19.176-41.613-34.374-67.317-45.594C345.782,82.11,318.242,76.5,288.866,76.5z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        <div id="inTheNews" onmouseover="msgAlert()">
+                            <div class="data">
+                                <div id="infoModal4" class="modal">
+                        	<p class="message">This window had several links inside them. I removed them since all pointed to a location not available on the general internet. Please click on any buttons on the left side of the page to see other pages associated with this project.</p>
+                        </div>
+                            </div>
+                            
+                            <script src="mouseenterInTheNews.js"></script><!--v2.8-->
+                        </div>
+                        
+                    </div>
+					
+                    <div id="opportunitiesBar">
+                        <p class="text">Opportunities</p>
+                        <div id="opportunities" onmouseover="msgAlert()">
+                            <p class="data">
+                                <div id="infoModal3" class="modal">
+                        	<p class="message">This window had several links inside them. I removed them since all pointed to a location not available on the general internet. Please click on any buttons on the left side of the page to see other pages associated with this project.</p>
+                        </div>
+                            </p>
+                        </div>
+                    </div>
+                    <script src="mouseenterInTheNews.js"></script>
+                </div>
+                <div class="col-md-5">
+                    <div id="boxColumnCenter">
+                        <p class="text">Today's Comments</p><!-- v2.2 -->
+                        <svg version="1.1" id="collapseTC" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 577.732 577.732" style="enable-background:new 0 0 577.732 577.732;" xml:space="preserve">
+<g>
+                        <g>
+                        <path style="fill:#E5E5E5;" d="M439.418,246.024c0-4.08-1.326-7.548-3.978-10.404s-6.021-4.284-10.101-4.284h-272.95
+			c-4.08,0-7.548,1.428-10.404,4.284s-4.284,6.324-4.284,10.404v85.68c0,4.08,1.428,7.548,4.284,10.404
+			c2.856,2.854,6.324,4.284,10.404,4.284h272.953c4.08,0,7.446-1.431,10.101-4.284c2.649-2.856,3.978-6.324,3.978-10.404
+			L439.418,246.024L439.418,246.024z M288.866,0c39.576,0,76.908,7.548,111.996,22.646c35.088,15.096,65.79,35.802,92.104,62.118
+			c26.316,26.316,47.022,57.018,62.118,92.106c15.096,35.088,22.646,72.42,22.646,111.996c0,39.984-7.55,77.418-22.646,112.302
+			c-15.096,34.886-35.802,65.484-62.118,91.8c-26.313,26.316-57.018,47.022-92.104,62.118
+			c-35.089,15.099-72.42,22.646-111.996,22.646c-39.984,0-77.521-7.548-112.608-22.646c-35.088-15.096-65.688-35.802-91.8-62.118
+			c-26.112-26.313-46.716-56.916-61.812-91.8C7.55,366.284,0.002,328.849,0.002,288.864c0-39.576,7.548-76.908,22.644-111.996
+			s35.7-65.79,61.812-92.106s56.712-47.022,91.8-62.118C211.346,7.548,248.882,0,288.866,0z M288.866,76.5
+			c-29.376,0-56.916,5.61-82.62,16.83s-48.144,26.418-67.32,45.594s-34.374,41.616-45.594,67.32s-16.83,53.244-16.83,82.62
+			s5.61,56.916,16.83,82.62c11.22,25.704,26.418,48.144,45.594,67.32s41.616,34.374,67.32,45.594s53.244,16.83,82.62,16.83
+			s56.916-5.61,82.62-16.83c25.703-11.22,48.144-26.418,67.317-45.594c19.179-19.179,34.374-41.616,45.597-67.32
+			c11.22-25.704,16.83-53.244,16.83-82.62s-5.61-56.916-16.83-82.62c-11.223-25.704-26.418-48.144-45.597-67.32
+			c-19.176-19.176-41.613-34.374-67.317-45.594C345.782,82.11,318.242,76.5,288.866,76.5z" />
+	</g>
+</g>
+</svg>
+                        <div id="todaysComments" onmouseover="msgAlert()">
+                            <p class="data">
+                                <div id="infoModal1" class="modal">
+                        	<p class="message">This window had several links inside them. I removed them since all pointed to a location not available on the general internet. Please click on any buttons on the left side of the page to see other pages associated with this project.</p>
+                        </div>
+                            </p>
+                            <script src="mouseenterInTheNews.js"></script>
+                        </div>
+                    </div>
+                    <div id="adviceAndGuidanceBar" onmouseover="msgAlert()">
+                        <p class="text">Advice and Guidance</p>
+                        <div id="adviceAndGuidance">
+                            <p class="data">
+                                <div id="infoModal2" class="modal">
+                        	<p class="message">This window had several links inside them. I removed them since all pointed to a location not available on the general internet. Please click on any buttons on the left side of the page to see other pages associated with this project.</p>
+                        </div>
+                            </p>
+                            <script src="mouseenterInTheNews.js"></script>
+                        </div>
+                    </div>
+                    <div id="repCodesTitle">
+                        Rep Codes:
+                        <select id="repCodes"></select>
+                        <svg version="1.1" id="refresh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 12.002 12.002" style="enable-background:new 0 0 12.002 12.002;" xml:space="preserve">
+<g>
+                        <g>
+                        <path style="fill:#474747" d="M6.873,6.193h5.128V1.066c-0.008-1.135-0.671-1.408-1.473-0.605L9.374,1.619
+			c-1.015-0.795-2.257-1.23-3.566-1.23c-1.55,0-3.009,0.604-4.104,1.701C0.605,3.182,0.001,4.643,0.001,6.193
+			c0,1.553,0.604,3.012,1.701,4.107c1.097,1.097,2.555,1.702,4.106,1.702c1.55,0,3.009-0.605,4.106-1.703
+			c0.296-0.297,0.558-0.621,0.78-0.965c0.347-0.541,0.19-1.26-0.35-1.605C9.805,7.383,9.086,7.54,8.74,8.079
+			c-0.133,0.207-0.292,0.4-0.468,0.58c-0.659,0.658-1.534,1.02-2.464,1.02c-0.93,0-1.805-0.361-2.464-1.02
+			c-0.657-0.658-1.02-1.533-1.02-2.465c0-0.93,0.362-1.805,1.02-2.461c0.659-0.658,1.534-1.021,2.464-1.021
+			c0.688,0,1.346,0.201,1.909,0.572L6.269,4.735C5.466,5.537,5.739,6.193,6.873,6.193z" />
+	</g>
+</g>
+</svg>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div id="boxColumnRight">
+                        <p class="text">
+                            Market Summary
+                            <svg version="1.1" id="collapseMS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 577.732 577.732" style="enable-background:new 0 0 577.732 577.732;" xml:space="preserve">
+<g>
+                            <g>
+                            <path style="fill:#E5E5E5;" d="M439.418,246.024c0-4.08-1.326-7.548-3.978-10.404s-6.021-4.284-10.101-4.284h-272.95
+			c-4.08,0-7.548,1.428-10.404,4.284s-4.284,6.324-4.284,10.404v85.68c0,4.08,1.428,7.548,4.284,10.404
+			c2.856,2.854,6.324,4.284,10.404,4.284h272.953c4.08,0,7.446-1.431,10.101-4.284c2.649-2.856,3.978-6.324,3.978-10.404
+			L439.418,246.024L439.418,246.024z M288.866,0c39.576,0,76.908,7.548,111.996,22.646c35.088,15.096,65.79,35.802,92.104,62.118
+			c26.316,26.316,47.022,57.018,62.118,92.106c15.096,35.088,22.646,72.42,22.646,111.996c0,39.984-7.55,77.418-22.646,112.302
+			c-15.096,34.886-35.802,65.484-62.118,91.8c-26.313,26.316-57.018,47.022-92.104,62.118
+			c-35.089,15.099-72.42,22.646-111.996,22.646c-39.984,0-77.521-7.548-112.608-22.646c-35.088-15.096-65.688-35.802-91.8-62.118
+			c-26.112-26.313-46.716-56.916-61.812-91.8C7.55,366.284,0.002,328.849,0.002,288.864c0-39.576,7.548-76.908,22.644-111.996
+			s35.7-65.79,61.812-92.106s56.712-47.022,91.8-62.118C211.346,7.548,248.882,0,288.866,0z M288.866,76.5
+			c-29.376,0-56.916,5.61-82.62,16.83s-48.144,26.418-67.32,45.594s-34.374,41.616-45.594,67.32s-16.83,53.244-16.83,82.62
+			s5.61,56.916,16.83,82.62c11.22,25.704,26.418,48.144,45.594,67.32s41.616,34.374,67.32,45.594s53.244,16.83,82.62,16.83
+			s56.916-5.61,82.62-16.83c25.703-11.22,48.144-26.418,67.317-45.594c19.179-19.179,34.374-41.616,45.597-67.32
+			c11.22-25.704,16.83-53.244,16.83-82.62s-5.61-56.916-16.83-82.62c-11.223-25.704-26.418-48.144-45.597-67.32
+			c-19.176-19.176-41.613-34.374-67.317-45.594C345.782,82.11,318.242,76.5,288.866,76.5z" />
+	</g>
+</g>
+</svg>
+                        </p>
+                        <div id="marketSummary" onmouseover="msgAlert()">
+                            <p class="data">
+                            </p>
+                        </div>
+                        <div id="attentionBar">
+                            <p class="text">Attention!</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 8" class="attentionIcon">
+                                <path d="M4 0c-1.65 0-3 1.35-3 3h-1l1.5 2 1.5-2h-1c0-1.11.89-2 2-2v-1zm2.5 1l-1.5 2h1c0 1.11-.89 2-2 2v1c1.65 0 3-1.35 3-3h1l-1.5-2z" transform="translate(0 1)" />
+                            </svg>
+
+                            <div id="attention">
+                                <p class="data">
+                                    <!--Place Data Here-->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript" src="scrollScript - MainDashboard.js"></script>
+                <footer></footer>
+                <script src="mouseenterInTheNews.js"></script>
+                <div style="width: 100%; height: 47vh; margin-top: 95vh; background: #DEDEDE; position: absolute;"></div>
+            </div>
+            </div>
+        </div>
+    
+    
+        <!------------------------------------------------------------------------------Left Bar--------------------------------------------------------------------------->
+    <div class="container">
+        <div class="row">
+            <div id="lb">
+                    <div id="lbTitleBoxMD">
+                        <!--SVG Icon-->
+                        <div>
+                            <svg version="1.1" id="leftBarIconRight" height="50px" width=" 40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="17px" y="0px" viewBox="0 0 464.686 464.686" style="enable-background:new 0 0 464 464;" xml:space="preserve"><g><path style="fill:#FFFFFF;" d="M301.473,176.512H163.214c-4.487,0-8.129,3.633-8.129,8.129s3.642,8.129,8.129,8.129h138.259c4.487,0,8.129-3.633,8.129-8.129C309.601,180.145,305.96,176.512,301.473,176.512z" /><path style="fill:#FFFFFF;" d="M301.473,245.499H163.214c-4.487,0-8.129,3.633-8.129,8.129c0,4.495,3.642,8.129,8.129,8.129h138.259c4.487,0,8.129-3.633,8.129-8.129C309.601,249.141,305.96,245.499,301.473,245.499z" /><path style="fill:#FFFFFF;" d="M301.473,314.495H163.214c-4.487,0-8.129,3.633-8.129,8.129c0,4.495,3.642,8.129,8.129,8.129h138.259c4.487,0,8.129-3.633,8.129-8.129C309.601,318.128,305.96,314.495,301.473,314.495z" /><path style="fill:#FFFFFF;" d="M301.473,383.482H163.214c-4.487,0-8.129,3.633-8.129,8.129c0,4.495,3.642,8.129,8.129,8.129h138.259c4.487,0,8.129-3.633,8.129-8.129C309.601,387.115,305.96,383.482,301.473,383.482z" /><path style="fill:#FFFFFF;" d="M119.653,58.826c4.487,0,8.129-3.633,8.129-8.129s-3.642-8.129-8.129-8.129H76.531c-4.487,0-8.129,3.633-8.129,8.129v405.86c0,4.495,3.642,8.129,8.129,8.129h311.625c4.487,0,8.129-3.633,8.129-8.129V50.698c0-4.495-3.642-8.129-8.129-8.129h-43.114c-4.487,0-8.129,3.633-8.129,8.129s3.642,8.129,8.129,8.129h34.985v389.603H84.659V58.826H119.653z" /><path style="fill:#FFFFFF;" d="M277.948,0h-91.211c-4.487,0-8.129,3.633-8.129,8.129v16.2h-26.45c-4.487,0-8.129,3.633-8.129,8.129v71.434c0,4.495,3.642,8.129,8.129,8.129h160.369c4.487,0,8.129-3.633,8.129-8.129V32.466c0-4.495-3.642-8.129-8.129-8.129h-26.45V8.129C286.077,3.642,282.435,0,277.948,0z M304.399,40.594v55.177H160.287V40.594h26.45c4.487,0,8.129-3.633,8.129-8.129V16.257h74.954v16.2c0,4.495,3.642,8.129,8.129,8.129h26.45V40.594z" /><circle style="fill:#FFFFFF;" cx="232.339" cy="48.95" r="15.2" /></g>
+		</svg>
+                        </div><!-------------------------------------End SVG Icon--------------------------------------------------------->
+                        <p id="pm">
+                            Practice<br />Mangement
+                        </p>
+                        <div id="lbList">
+                      <nav>
+                    <div id="menu-v" class="nav ">
+                        <div  class="leftBarText"><a href="#">My Home Page</a></div>
+                        <div  class="leftBarText"><a href="#">Task Tracker</a></div>
+                        <div  class="leftBarText"><a href="#">Calendar</a></div>
+                        <div  class="leftBarText"><a href="#">Activity Stream</a></div>
+                        <div  class="leftBarText"><a href="#">Service & Activity Plans</a></div>
+                        <div  class="leftBarText"><a href="#">Goals & Business Plans</a></div>
+                        <div  class="leftBarText"><a href="#">Briefcase</a></div>
+                        <div  class="leftBarText"><a href="#">Reports & Presentation Maker</a></div>
+                        <div  class="leftBarText"><a href="#">Settings & Preferences</a></div>
+                    </div>
+                </nav>
+                        </div>
+                    </div>
+                </div>
+                <div id="leftbar">
+                    <div id="leftBarIcon">
+                        <button type="button" class=" iconLeft" fill="#AE1E23">
+                            <svg width="30" height="55">
+                                <svg version="1.1"  width="35px" height="35px" fill="#AE1E23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-3px" y="10px"
+                                     viewBox="0 0 31.79 31.79" style="enable-background:new 0 0 31.79 31.79;" xml:space="preserve">
+                                <g>
+                                <g>
+                                <path d="M21.067,4.89c0-0.701-0.567-1.269-1.268-1.269h-0.711c0.018-0.133,0.029-0.28,0.029-0.425C19.118,1.434,17.683,0,15.921,0
+			                                                            c-1.763,0-3.196,1.434-3.196,3.196c0,0.144,0.01,0.292,0.028,0.425h-0.697c-0.7,0-1.269,0.568-1.269,1.269H6.984
+			                                                            c-1.438,0-2.604,1.166-2.604,2.604v21.691c0,1.438,1.166,2.604,2.604,2.604h17.822c1.438,0,2.604-1.166,2.604-2.604V7.494
+			                                                            c0-1.438-1.166-2.604-2.604-2.604H21.067z M14.643,3.196c0-0.704,0.573-1.278,1.278-1.278c0.705,0,1.279,0.573,1.279,1.278
+			                                                            c0,0.149-0.026,0.291-0.074,0.425h-2.409C14.671,3.488,14.643,3.346,14.643,3.196z M24.872,27.754
+			                                                            c0,0.791-0.643,1.432-1.434,1.432H8.414c-0.79,0-1.431-0.641-1.431-1.432V8.925c0-0.791,0.641-1.431,1.431-1.431h2.374v1.267
+			                                                            c0,0.701,0.568,1.269,1.269,1.269H19.8c0.699,0,1.268-0.568,1.268-1.269V7.494h2.375c0.789,0,1.431,0.641,1.431,1.431
+			                                                            L24.872,27.754L24.872,27.754z" />
+                                <path d="M10.192,12.833c-0.707,0-1.279,0.563-1.279,1.269s0.572,1.269,1.279,1.269h11.509c0.707,0,1.278-0.562,1.278-1.269
+			                                                            c0-0.706-0.571-1.269-1.278-1.269H10.192z" />
+                                <path d="M21.701,17.038H10.192c-0.707,0-1.279,0.597-1.279,1.303c0,0.705,0.572,1.304,1.279,1.304h11.509
+			                                                            c0.707,0,1.278-0.599,1.278-1.304C22.979,17.633,22.408,17.038,21.701,17.038z" />
+                                <path d="M21.701,21.311H10.192c-0.707,0-1.279,0.562-1.279,1.269c0,0.705,0.572,1.269,1.279,1.269h11.509
+			                                                            c0.707,0,1.278-0.562,1.278-1.269S22.408,21.311,21.701,21.311z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                            </svg>
+                        </button>
+                        <button type="button" class=" iconLeft" onClick="openBookAnalyzer()">
+                            <svg version="1.1"  width="30px" height="50px" fill="#595959" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="16px" y="13px"
+                                 viewBox="0 0 30.272 30.272" style="enable-background:new 0 0 30.272 30.272;" xml:space="preserve">
+                            <g>
+                            <g id="c163_chart">
+                            <path d="M13.53,3.182l-0.002,13.527l13.53,0.003c0,7.473-6.055,13.528-13.528,13.528C6.058,30.241,0,24.185,0,16.713
+			                                                            C0,9.264,6.017,3.224,13.452,3.182C13.479,3.182,13.505,3.182,13.53,3.182z" />
+                            <path d="M15.71,0.032c8.043,0,14.562,6.523,14.562,14.566L15.7,14.614C15.7,14.614,15.652,0.032,15.71,0.032z" />
+	                                                            </g>
+                            <g id="Capa_1_109_">
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <script> function openBookAnalyzer(){
+								location.href = "http://mdgeppert.x10host.com/dashboard/bookAnalyzer/index.html"
+							}
+						</script>
+                        <button type="button" class=" iconLeft" onClick="openClientHousehold()">
+                            <svg version="1.1"  height="50" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="15px" y="20px"
+                                 viewBox="0 0 25.96 25.96" style="enable-background:new 0 0 25.96 25.96;" xml:space="preserve">
+                            <g>
+                            <g>
+                            <path style="fill:#595959;" d="M11.896,17.15c-0.131-0.043-0.953-0.887-0.439-2.474H11.45c1.34-1.401,2.487-3.655,2.487-5.876
+			                                                            c0-3.412-2.359-5.201-4.957-5.201c-2.6,0-4.855,1.789-4.855,5.201c0,2.229,1.051,4.492,2.398,5.892
+			                                                            c0.525,1.398-0.414,2.384-0.611,2.458C3.192,18.148,0,19.97,0,21.767c0,0.485,0,0.191,0,0.674c0,2.449,4.677,3.006,9.006,3.006
+			                                                            c4.334,0,8.953-0.557,8.953-3.006c0-0.482,0-0.188,0-0.674C17.959,19.915,14.751,18.109,11.896,17.15z" />
+	                                                            </g>
+                            <g>
+                            <path style="fill:#595959;" d="M20.259,12.651c-0.122-0.041-0.896-0.23-0.413-1.723H19.84c1.26-1.316,2.129-3.438,2.129-5.523
+			                                                            c0-3.209-2.01-4.891-4.452-4.891c-1.798,0-3.347,0.918-4.042,2.678c1.459,1.205,2.463,3.081,2.463,5.607
+			                                                            c0,2.697-1.264,5.158-2.586,6.746c2.106,0.797,5.397,2.4,6.339,4.85c3.318-0.184,6.269-0.873,6.269-2.771c0-0.453,0-0.177,0-0.633
+			                                                            C25.959,15.251,22.943,13.552,20.259,12.651z" />
+	                                                            </g>
+                                                            </g>
+                                                                    </svg>
+                        </button>
+                        <script>function openClientHousehold(){
+							location.href = "http://mdgeppert.x10host.com/dashboard/clientHousehold"
+							}
+						</script>
+                        <button type="button" class=" iconLeft" onClick="openMarketsAdvice()">
+                            <svg version="1.1"  height="55" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="18px" y="15px"
+                                 viewBox="0 0 581.176 581.176" style="enable-background:new 0 0 581.176 581.176;" xml:space="preserve">
+                            <g>
+                            <g>
+                            <g>
+                            <polygon points="66.424,514.777 581.176,514.777 581.176,581.176 0,581.176 0,0 66.424,0" fill="#595959" />
+                            <rect x="466.37" y="330.447" width="71.63" height="136.165" fill="#595959" />
+                            <rect x="350.11" y="214.212" width="71.678" height="252.424" fill="#595959" />
+                            <rect x="233.899" y="295.552" width="71.63" height="171.06" fill="#595959" />
+                            <rect x="117.616" y="98.001" width="71.678" height="368.635" fill="#595959" />
+		                                                            </g>
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button" class=" iconLeft" onClick="openMarketsAdvice()">
+                            <svg version="1.1"  height="50px" width="30px" fill="#595959" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="25px"
+                                 viewBox="0 0 502.707 502.707" style="enable-background:new 0 0 502.707 502.707;" xml:space="preserve">
+<g>
+                            <g>
+                            <g>
+                            <path d="M282.815,24.677C276.537,10.16,262.128,0,245.368,0H81.732v1.359c13.223,2.588,24.03,11.368,29.379,23.318H43.444v478.03
+				h415.82V24.677H282.815z M430.057,473.436c-26.058,0-331.284,0-357.298,0c0-26.489,0-393.02,0-419.487c4.94,0,20.104,0,41.502,0
+				V341.53l83.738-90.123l88.16,90.123V53.949c69.976,0,132.703,0,143.92,0C430.057,80.437,430.057,447.011,430.057,473.436z" />
+		</g>
+	</g>
+	</g></svg>
+                        </button>
+                        <script>function openMarketsAdvice(){
+							location.href = "http://mdgeppert.x10host.com/dashboard/marketsAdvice/"
+							}
+						</script>
+                    </div>
+                </div>
+                <script src="leftBarScript - MainDashboard.js"></script>
+            </div>
+        </div>
+    <!-----------------------End Left Bar------------------------------->
+</body>
+</html>

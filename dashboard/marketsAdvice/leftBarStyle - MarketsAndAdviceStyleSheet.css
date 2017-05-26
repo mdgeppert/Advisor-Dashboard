@@ -1,0 +1,168 @@
+﻿/*Left Vertical Expanding Bar*/
+
+#leftbar {
+    left: 0;
+    width: 5%;
+    height: 100%;
+    top: 0;
+    background-color: #000000;
+    position: fixed;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#lb {
+    width: 13vw;
+    background: #333333;
+    border-radius: 0 16px 16px 0;
+	height: 100.5vh;
+	margin-top: -12.75vh;
+	margin-left: -9.8vw;
+    position: absolute;
+}
+
+#lbTitleBox {
+    height: 80px;
+    width: 250px;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #008000;
+    border-radius: 0 16px 0 0;
+    position: absolute;
+
+}
+
+#markets{
+	margin-top: -10;
+	color: #FFFFFF;
+}
+
+#advice{
+    margin-left: 0;
+	color:#FFFFFF;
+	position: absolute;
+}
+
+#pm {
+    margin-left: 5px;
+    margin-top: -65px;
+    color: #FFFFFF;
+    font: 20px Arial;
+}
+
+#leftBarIcon{
+    margin-top: 100px;
+    right: 400px;
+}
+
+
+.iconLeft {
+    float: left;
+    margin-top: 4px;
+    margin-left: 5%;
+    background: #000000;
+    border: none;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+.iconLeft:hover {
+    float: left;
+    margin-top: 4px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background: #E5E5E5;
+    border-radius: 30px;
+}
+
+#activeLeftIcon {
+    float: left;
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+#leftBarIconRight {
+    margin-top: 15px;
+    margin-left: 155px;
+}
+
+#lbList{
+    margin-top: 20px;
+    color: #FFFFFF;
+	width: 505px;
+}
+
+.leftBarText{
+    margin-top: 20px;
+    margin-left:-5px;
+    font: 16px arial;
+    color: white;
+    text-decoration: none;
+}
+
+.leftBarText:hover{
+    margin-top: 20px;
+    margin-left: -5px;
+    font: 18px arial;
+    color: white;
+    text-decoration: none;
+}
+.leftBarText2{
+    margin-top: 45px;
+	margin-left: 15px;
+    font: 18px arial;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: #008000;
+}
+#pointer{
+    margin-top: 100px;
+    margin-right: -5px;
+    float: right;
+    fill: #FFFFFF;
+}
+
+#lowerLeft{
+    margin-top: 325px;
+    margin-left: 0;
+    width: 280px;
+    height: 408px;
+    border-radius: 0 0 16px 0;
+    background: #000000;
+    position: absolute;
+}
+
+#lowerLeftMenus{
+    margin-left: -500px;
+    height: 35px;
+    width: 275px;
+    margin-bottom: 1px;
+    text-align: left;
+    background: -webkit-linear-gradient(#FFFFFF, #ACACAC, #ACACAC);
+    border: 0;
+}
+
+#lowerLeftMenus:hover{
+    margin-left: -500px;
+    height: 35px;
+    width: 275px;
+    margin-bottom: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(#FFFFFF, #595959, #595959);
+    border: 0;
+}
+
+#droppedDownMenu{
+    margin-left: 50px;    
+}
+
+/*Misc*/
+
+

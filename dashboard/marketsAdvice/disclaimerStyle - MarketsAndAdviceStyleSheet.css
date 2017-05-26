@@ -1,0 +1,64 @@
+﻿#disclaimerSection{
+    position: fixed;
+    margin-top: 16vh;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: #DEDEDE;
+}
+
+#disclaimerText-Sizer{
+    margin-left: 4px;
+    margin-top: 0;
+}
+
+#disclaimer{
+    font: 12px arial;
+    width: 200px;
+    margin-top: 0;
+    margin-left: 12.25%;
+    position: absolute;
+}
+
+#helps{
+    left: 50%;
+    top: 0;
+    width: 5%;
+}
+
+
+#size1{
+    font: 14px arial;
+    top: 0;
+    left: 90%;
+    width:15px;
+    position: absolute;
+}
+
+#size2{
+    font: 18px arial;
+    width: 15px;
+    left: 91%;
+    top: 0;
+    position: absolute;
+}
+
+#size3{
+    font: 20px arial;
+    top:-2px;
+    left: 92%;
+    width: 15px;
+    position: absolute; 
+}
+
+#help{
+    width: 15px;
+    left: 94%;
+    bottom: 0;
+    position: absolute;
+}
+
+#chooseFont{
+    margin-top: 0;
+    margin-left: 85%;
+}

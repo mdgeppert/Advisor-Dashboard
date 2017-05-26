@@ -1,0 +1,38 @@
+﻿#subMenu {
+    margin-top: 140px;
+    width: 100%;
+    left: 70px;
+    right: 0;
+    height: 40px;
+    background: #CECECE;
+    position: fixed;
+}
+
+#activeSubMenuTab {
+    margin-left: 10%;
+    background: #00698C;
+    color: #FFFFFF;
+    display: inline;
+    font: 14px Arial;
+    padding: 8px 5px 8px 5px;
+
+}
+
+#inactiveSubMenuTab {
+    background: -webkit-linear-gradient(#C8C8C8, #E5E5E5, #C8C8C8 );
+    color: #000000;
+    height: 40px;
+    font: 14px Arial;
+    padding: 8px 5px 8px 5px;
+    list-style-type: none;
+}
+
+#inactiveSubMenuTab:hover {
+    background: -webkit-linear-gradient(#E5E5E5, #C8C8C8, #E5E5E5 );
+    color: #000000;
+    height: 40px;
+    display: inline;
+    font: 14px Arial;
+    padding: 8px 5px 8px 5px;
+    list-style-type: none;
+}

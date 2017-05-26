@@ -1,0 +1,115 @@
+﻿#leftbar {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5.5%;
+    background-color: #000000;
+    position: absolute;
+}
+
+#lb {
+    height: 100%;
+    width: 220px;
+    background: #333333;
+    left: 70px;
+    border-radius: 0 16px 16px 0;
+    position: absolute;
+}
+
+#lbTitleBox {
+    height: 80px;
+    width: 220px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #297884;
+    position: absolute;
+    border-radius: 0 16px 0 0;
+}
+
+#pm {
+    margin-left: 15px;
+    margin-top: -42px;
+    color: #FFFFFF;
+    font: 20px Arial;
+}
+
+#leftIconGroup{
+    margin-top: 100px;
+    margin-left: 1.5%;
+    padding-left: 3px;
+    position: absolute;
+}
+
+#leftBarIconRight {
+    margin-top: 11px;
+    margin-left: 75px;
+}
+
+
+table{
+    margin-top: 100px;
+    margin-left: 18px;
+}
+
+.leftBarText{
+    margin-left: 18px;
+    font: 16px arial;
+    color: white;
+    text-decoration: none;
+
+}
+
+.leftBarText:hover{
+    margin-left: 18px;
+    font: 18px arial;
+    color: white;
+    text-decoration: none;
+}
+
+#leftBarText2{
+    margin-left: 6px;
+    font: 22px arial;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: #297884;
+}
+
+#pointer{
+    margin-top: 220px;
+    margin-right: -5px;
+    float: right;
+    fill: #FFFFFF;
+}
+
+.iconLeft {
+    float: left;
+    background: #000000;
+    left: -50px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 60px;
+    list-style-type: none;
+}
+
+.iconLeft:hover {
+    float: left;
+    background: #CECECE;
+    margin-left: 0px;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+/*Misc*/
+
+#clipboardIcon{
+    margin-top: -60px;
+}
+
+.text2{
+    margin-left: 10px;
+    margin-top: 2px;
+    font: 14px arial;
+}

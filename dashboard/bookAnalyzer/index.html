@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+<!-- v2.2 -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Book Analyzer</title>
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+
+        <link href="wrapperStyleSheet - BookAnalyzer.css" rel="stylesheet" type="text/css" />
+        <link href="leftRailStyle.css" rel="stylesheet" type="text/css" />
+        <link href="bottomStyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script src="commaScript.js"></script>
+</head>
+<body>
+    <xsl:value-of select="format-number(500100, '###,###.00')"/>
+    <div class="container-fluid">
+        <!--Wrapper-->
+        <div class="row">
+            <div id="wrapper1">
+                <div class="col-sm-6">
+                    <div id="titleBlackStrip">
+                        <p id="titleBlack">
+                            Book Analyzer <span id="titleOrange">Overview</span>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div id="topIconStrip">
+                        <button type="button"  class="icon">
+                            <svg version="1.1" height="25" width="25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="2px" y="9px"
+                                 viewBox="0 0 612.002 612.002" style="enable-background:new 0 0 612.002 612.002;" xml:space="preserve">
+                            <g>
+                            <path d="M542.657,70.369c-44.714-44.714-104.163-69.341-167.4-69.341S252.569,25.655,207.855,70.369
+		                                                            c-80.234,80.231-90.686,204.181-31.439,295.856L14.032,528.606c-18.709,18.706-18.709,49.144,0,67.853l0.463,0.463
+		                                                            c9.062,9.059,21.109,14.052,33.925,14.052s24.863-4.993,33.928-14.055l161.887-161.89c38.497,25.684,83.698,39.481,131.024,39.481
+		                                                            c63.237,0,122.686-24.624,167.4-69.341c44.717-44.714,69.344-104.166,69.344-167.403S587.374,115.083,542.657,70.369z
+		                                                             M520.412,382.926c-38.77,38.77-90.321,60.122-145.154,60.122s-106.384-21.352-145.154-60.122
+		                                                            c-80.039-80.039-80.039-210.273,0-290.312c38.77-38.77,90.321-60.122,145.154-60.122s106.384,21.352,145.154,60.122
+		                                                            s60.125,90.322,60.125,145.154S559.182,344.153,520.412,382.926z M222.728,253.504c-8.687,0-15.732-7.042-15.732-15.732
+		                                                            c0-92.779,75.483-168.262,168.262-168.262c8.69,0,15.732,7.042,15.732,15.732s-7.042,15.732-15.732,15.732
+		                                                            c-75.429,0-136.797,61.368-136.797,136.797C238.46,246.459,231.415,253.504,222.728,253.504z" />
+                                                            </g>
+                                                            </svg>
+                            </button>                                
+                            <script type="text/javascript" src="MarketsAndAdvice-magnafindSearchScript.js">
+                            </script>
+                        
+
+
+                        <button type="button"  class="icon">
+                            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="2px" y="10px"
+                                 width="25px" height="25px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                            <g>
+                            <g>
+                            <path d="M48.036,15.73L48.036,15.73l-3.313,5.738v22.976c0,0.144-0.135,0.279-0.277,0.279H5.556c-0.143,0-0.278-0.136-0.278-0.279
+			                                                            V5.556c0-0.143,0.135-0.278,0.278-0.278h28.42l1.291-2.235l0,0l0.744-1.29C36.395,1.088,36.877,0.507,37.425,0H5.556
+			                                                            C2.492,0,0,2.492,0,5.556v38.889C0,47.508,2.492,50,5.556,50h38.889C47.508,50,50,47.508,50,44.443V12.326L48.036,15.73z" />
+                            <polygon points="25.889,26.23 25.943,36.589 34.943,31.461 45.594,13.013 36.538,7.785 		" />
+                            <path d="M48.076,8.714c1.25-2.167,0.232-5.087-2.268-6.531s-5.539-0.865-6.791,1.304l-1.31,2.273l9.058,5.227L48.076,8.714z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button"  class="icon">
+                            <svg version="1.1" id="circledCheck" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-210px" y="5px"
+                                 width="30px" height="30px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                            <polygon points="211.344,306.703 160,256 128,288 211.414,368 384,176 351.703,144 	" />
+                            <path d="M256,0C114.609,0,0,114.609,0,256c0,141.391,114.609,256,256,256c141.391,0,256-114.609,256-256
+		                                                            C512,114.609,397.391,0,256,0z M256,472c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z
+		                                                            " />
+                                                            </g>
+                                                            </svg>
+                        </button>
+
+                        <button type="button"  class="icon">
+                            <svg version="1.1" id="calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30px" height="30" viewBox="0 0 276.338 276.338" style="enable-background:new 0 0 276.338 276.338;"
+                                 xml:space="preserve">
+                            <g>
+                            <g>
+                            <path d="M267.207,99.838v-37.64v-4.123c0-21.569-19.036-39.141-42.689-39.748v0.005v9.549v0.009v9.6v0.019v5.454
+			                                                            c0,13.999-11.388,25.387-25.384,25.387c-13.997,0-25.385-11.388-25.385-25.387v-5.582v-9.558v-9.558h-71.98v9.558v9.558v5.582
+			                                                            c0,13.999-11.388,25.387-25.386,25.387c-13.997,0-25.384-11.388-25.384-25.387v-5.372v-0.033v-9.631v-0.009V18.37V18.36
+			                                                            C27.737,19.345,9.131,36.756,9.131,58.07v4.123v37.64v132.573c0,24.218,19.709,43.932,43.929,43.932h170.216
+			                                                            c24.217,0,43.927-19.714,43.927-43.932V99.838H267.207z M248.09,232.411c0,13.684-11.131,24.811-24.814,24.811H53.065
+			                                                            c-13.682,0-24.812-11.127-24.812-24.811V99.838H248.09V232.411z" />
+                            <path d="M65.339,11.049v7.215v9.558v9.558v5.582c0,6.104,4.945,11.049,11.049,11.049c6.102,0,11.049-4.945,11.049-11.049v-5.582
+			                                                            v-9.558v-9.558v-7.215C87.438,4.945,82.491,0,76.389,0C70.284,0.005,65.339,4.95,65.339,11.049z" />
+                            <path d="M199.137,0.005c-6.104,0-11.051,4.945-11.051,11.049v7.215v9.558v9.558v5.582c0,6.104,4.946,11.049,11.051,11.049
+			                                                            s11.052-4.945,11.052-11.049v-5.587v-9.558v-9.558v-7.215C210.18,4.95,205.238,0.005,199.137,0.005z" />
+                            <path d="M106.19,231.87c12.463,0,21.875-3.481,28.238-10.445c6.352-6.963,9.535-15.037,9.535-24.222
+			                                                            c0-8.737-2.719-15.626-8.163-20.666c-1.477-1.354-2.814-2.437-4.009-3.239c-2.188-1.475-2.352-2.529-0.292-4.125
+			                                                            c1.157-0.901,2.294-1.988,3.407-3.268c3.794-4.392,5.691-9.782,5.691-16.176c0-9.026-3.171-16.23-9.532-21.597
+			                                                            s-14.725-8.048-25.095-8.048c-5.582,0-10.296,0.674-14.137,2.021c-3.839,1.349-7.15,3.292-9.945,5.841
+			                                                            c-3.739,3.594-6.48,7.512-8.23,11.759c-1.15,3.388-1.949,6.921-2.39,10.584c-0.315,2.623,1.769,4.761,4.406,4.761h10.356
+			                                                            c2.64,0,4.674-2.156,5.057-4.77c0.465-3.174,1.505-5.853,3.116-8.032c2.366-3.192,6.065-4.793,11.093-4.793
+			                                                            c4.383,0,7.775,1.297,10.193,3.893c2.408,2.595,3.619,5.964,3.619,10.108c0,6.395-2.366,10.637-7.089,12.732
+			                                                            c-2.053,0.933-5.29,1.544-9.696,1.838c-2.632,0.168-4.774,2.324-4.774,4.957v5.717c0,2.637,2.147,4.756,4.784,4.9
+			                                                            c4.669,0.248,8.254,0.878,10.744,1.899c5.773,2.399,8.66,7.169,8.66,14.3c0,5.396-1.559,9.521-4.669,12.396
+			                                                            c-3.11,2.87-6.763,4.303-10.944,4.303c-6.823,0-11.532-2.618-14.118-7.859c-0.845-1.731-1.433-3.733-1.767-6.011
+			                                                            c-0.383-2.614-2.462-4.771-5.106-4.771H73.726c-2.639,0-4.718,2.138-4.427,4.761c0.714,6.478,2.343,11.878,4.879,16.194
+			                                                            C80.157,226.853,90.831,231.87,106.19,231.87z" />
+                            <path d="M165.582,154.303h15.976c2.637,0,4.778,2.138,4.778,4.779v65.312c0,2.637,2.143,4.779,4.779,4.779h12.308
+			                                                            c2.637,0,4.778-2.143,4.778-4.779v-99.005c0-2.637-2.142-4.779-4.778-4.779h-8.266c-2.637,0-4.812,0.994-5.064,2.188
+			                                                            c-0.135,0.63-0.312,1.349-0.541,2.151c-0.942,3.244-2.343,5.839-4.182,7.785c-2.688,2.842-6.175,4.739-10.454,5.691
+			                                                            c-1.997,0.448-5.115,0.808-9.344,1.092c-2.632,0.168-4.77,2.399-4.77,5.031v4.966
+			                                                            C160.802,152.161,162.949,154.303,165.582,154.303z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button"  class="icon">
+                            <svg version="1.1" id="quoteBubble" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30" height="30" viewBox="0 0 435.244 435.244" style="enable-background:new 0 0 435.244 435.244;"
+                                 xml:space="preserve">
+                            <g>
+                            <g>
+                            <path style="fill:#030303;" d="M75.146,425.343v-96.354C27.281,294.43,0,244.745,0,191.603C0,91.414,97.624,9.901,217.622,9.901
+			                                                            s217.622,81.513,217.622,181.701c0,100.186-97.624,181.701-217.622,181.701c-14.218,0-28.533-1.189-42.631-3.539L75.146,425.343z
+			                                                             M217.622,39.177c-103.854,0-188.346,68.379-188.346,152.425c0,45.561,25.014,88.418,68.636,117.568l6.504,4.346v62.022
+			                                                            l65.497-36.452l5.2,0.973c14.021,2.63,28.321,3.968,42.508,3.968c103.856,0,188.346-68.376,188.346-152.425
+			                                                            C405.968,107.556,321.479,39.177,217.622,39.177z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </button>
+                        <button type="button"  class="icon">
+                            <svg version="1.1" id="cogWheel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="5px"
+                                 width="30" height="30" viewBox="0 0 896.025 896.025" style="enable-background:new 0 0 896.025 896.025;"
+                                 xml:space="preserve">
+                            <g>
+                            <path id="settings_1_" d="M863.24,382.771l-88.759-14.807c-6.451-26.374-15.857-51.585-28.107-75.099l56.821-70.452
+		                                                            c12.085-14.889,11.536-36.312-1.205-50.682l-35.301-39.729c-12.796-14.355-34.016-17.391-50.202-7.165l-75.906,47.716
+		                                                            c-33.386-23.326-71.204-40.551-112-50.546l-14.85-89.235c-3.116-18.895-19.467-32.759-38.661-32.759h-53.198
+		                                                            c-19.155,0-35.561,13.864-38.608,32.759l-14.931,89.263c-33.729,8.258-65.353,21.588-94.213,39.144l-72.188-51.518
+		                                                            c-15.558-11.115-36.927-9.377-50.504,4.171l-37.583,37.61c-13.548,13.577-15.286,34.946-4.142,50.504l51.638,72.326
+		                                                            c-17.391,28.642-30.584,60.086-38.841,93.515l-89.743,14.985C13.891,385.888,0,402.24,0,421.435v53.156
+		                                                            c0,19.193,13.891,35.547,32.757,38.663l89.743,14.985c6.781,27.508,16.625,53.784,29.709,78.147L95.647,676.44
+		                                                            c-12.044,14.875-11.538,36.312,1.203,50.669l35.274,39.73c12.797,14.382,34.028,17.363,50.216,7.163l77-48.37
+		                                                            c32.581,22.285,69.44,38.664,108.993,48.37l14.931,89.25c3.048,18.896,19.453,32.76,38.608,32.76h53.198
+		                                                            c19.194,0,35.545-13.863,38.661-32.759l14.875-89.25c33.308-8.147,64.531-21.245,93.134-38.5l75.196,53.705
+		                                                            c15.53,11.155,36.915,9.405,50.478-4.186l37.598-37.597c13.532-13.536,15.365-34.893,4.127-50.479l-53.536-75.059
+		                                                            c17.441-28.738,30.704-60.238,38.909-93.816l88.758-14.82c18.921-3.116,32.756-19.469,32.756-38.663v-53.156
+		                                                            C895.998,402.24,882.163,385.888,863.24,382.771z M449.42,616.013c-92.764,0-168-75.25-168-168c0-92.764,75.236-168,168-168
+		                                                            c92.748,0,167.998,75.236,167.998,168C617.418,540.763,542.168,616.013,449.42,616.013z" />
+                                                            </g>
+                                                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="bottom">
+                <div class="col-md-2">
+                    <div id="leftColumn">
+                        <div id="leftPanel1">
+                            <img src="left1.jpg" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="leftPanel2">
+                                <img src="left2.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="leftPanel3">
+                                <img src="left3.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="leftPanel4">
+                                <img src="left4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="leftPanel5">
+                                <img src="left5.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="leftPanel6">
+                            <img src="left6.jpg" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="leftPanel7">
+                                <img src="left7.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div id="rowA">
+                            <div id="centerA">
+                                <p class="tableTitle1">ASSET ALLOCATION ACROSS YOUR BOOK</p>
+                                <table id="table1">
+                                    <tbody>
+                                        <tr>
+                                            <td class="table1Col1A"><strong style="margin-left: 4%;">Asset<br /></strong><strong style="margin-left: 4%;"> class</strong></td>
+                                            <td class="table1Col2A"> <strong>% of book<br />assets</strong></td>
+                                            <td class="table1Col3A">
+                                                <select style="top: 1px; right: 5%; width: 200px; background: #D7DAD7; height: 37px; position: absolute;">
+                                                    <option value="Current value of assets">Current value of assets</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row1Col1">Equity</td>
+                                            <td class="table1Row1Col2">51</td>
+                                            <td class="table1Row1Col3">32110289.39</td>
+                                            <td class="table1Row1Col4"><meter value="51" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row2Col1">Fixed Income</td>
+                                            <td class="table1Row2Col2">35</td>
+                                            <td class="table1Row2Col3">10420280.23</td>
+                                            <td class="table1Row2Col4"><meter value="35" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row3Col1">Multi Class</td>
+                                            <td class="table1Row3Col2">7</td>
+                                            <td class="table1Row3Col3">339290.33</td>
+                                            <td class="table1Row3Col4"><meter value="7" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row4Col1">Alternative Investments</td>
+                                            <td class="table1Row4Col2">4</td>
+                                            <td class="table1Row4Col3">37480.03</td>
+                                            <td class="table1Row4Col4"><meter value="4" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row5Col1">Cash Investments</td>
+                                            <td class="table1Row5Col2">3</td>
+                                            <td class="table1Row5Col3">5290.39</td>
+                                            <td class="table1Row5Col4"><meter value="3" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="table1Row6Col1">Other</td>
+                                            <td class="table1Row6Col2">0</td>
+                                            <td class="table1Row6Col3">0.00</td>
+                                            <td class="table1Row6Col4"><meter value="0" min="0" max="100" style="margin-left: 22px; margin-top: 1px"></meter></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div id="rightA">
+                                <p class="tableTitle">ALIGNMENT WITH ENVISION PLAN</p>
+                                <table id="table2">
+                                    <tr><td class="table2Rows"><img src="misaligned.jpg" style="margin-left: -5px;" /></td></tr>
+                                    <tr><td class="table2Rows"><img src="likelyMisaligned.jpg" /></td></tr>
+                                    <tr><td class="table2Rows"><img src="likelyAligned.jpg" style="margin-left: 1px;" /></td></tr>
+                                    <tr><td class="table2Rows"><img src="aligned.jpg" style="margin-left: -2px;" /></td></tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="rowB">
+                            <div id="centerB">
+                                <img src="lineGraphs.jpg" style="margin-left: 6%" />
+                            </div>
+                            <div id="rightB">
+                                <p class="tableTitle">KEY STATS IN 2015</p>
+                                <table id="table4">
+                                    <tr><td id="table4Row1Col1"><span class="table4Text">New Households</span></td><td id="table4Row1Col2"><span class="table4Text2">4 Households</span></td></tr>
+                                    <tr><td id="table4Row2Col1"><span class="table4Text">New Key Households</span></td><td id="table4Row2Col2"><span class="table4Text2">2 Households</span></td></tr>
+                                    <tr><td id="table4Row3Col1"><span class="table4Text">New Prospects</span></td><td id="table4Row3Col2"><span class="table4Text2">12 Prospects</span></td></tr>
+                                    <tr><td id="table4Row4Col1"><span class="table4Text">All New Assets</span></td><td id="table4Row4Col2"><span class="table4Text2">$10,239,120</span></td></tr>
+                                    <tr><td id="table4Row5Col1"><span class="table4Text">NewAdvisory Assets</span></td><td id="table4Row5Col2"><span class="table4Text2">$4,299,349</span></td></tr>
+                                    <tr><td id="table4Row6Col1"><span class="table4Text">All New Accounts</span></td><td id="table4Row6Col2"><span class="table4Text2">38 New Accounts</span></td></tr>
+                                    <tr><td id="table4Row7Col1"><span class="table4Text">New Advisory Accounts</span></td><td id="table4Row7Col2"><span class="table4Text2">12 New Advisory</span></td></tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="rowC">
+                            <div id="centerC">
+                                <p class="tableTitle">ENVISION SCORES IN YOUR BOOK</p>
+                                <img src="barGraphs.jpg" style="margin-left: 0; margin-top: 40px; " />
+                            </div>
+                            <div id="rightC">
+                                <p class="tableTitle">NEXT SCHEDULED ENVISION REVIEWS</p>
+                                <table id="table6">
+                                    <tr>
+                                        <td id="table6Row1Col0"><span class="table6Col0Text">In 3 days</span></td>
+                                        <td id="table6Row1Col1"><span class="table6Col1Text">Erica & Arvind Anderson</span></td>
+                                        <td id="table6Row1Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="table6Row2Col0"><span class="table6Col0Text">In 5 days</span></td>
+                                        <td id="table6Row2Col1"><span class="table6Col1Text">Rod DeHaven</span></td>
+                                        <td id="table6Row2Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="table6Row3Col0"><span class="table6Col0Text">In 5 days</span></td>
+                                        <td id="table6Row3Col1"><span class="table6Col1Text">Kristen & Nate Davis</span></td>
+                                        <td id="table6Row3Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="table6Row4Col0"><span class="table6Col0Text">In 12 days</span></td>
+                                        <td id="table6Row4Col1"><span class="table6Col1Text">Mary Sweeney</span></td>
+                                        <td id="table6Row4Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="table6Row5Col0"><span class="table6Col0Text">In 17 days</span></td>
+                                        <td id="table6Row5Col1"><span class="table6Col1Text">Menaka & Arshdeep Mahajan</span></td>
+                                        <td id="table6Row5Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="table6Row6Col0"><span class="table6Col0Text">In 23 days</span></td>
+                                        <td id="table6Row6Col1"><span class="table6Col1Text">Bianca C & Phillip James North</span></td>
+                                        <td id="table6Row6Col2">
+                                            <svg version="1.1" class="circleDown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+<g>
+<g>
+<path d="M306,0C137.012,0,0,137.012,0,306s137.012,306,306,306s306-137.012,306-306S474.988,0,306,0z M306,554.625
+				C168.912,554.625,57.375,443.088,57.375,306S168.912,57.375,306,57.375S554.625,168.912,554.625,306S443.088,554.625,306,554.625
+				z M411.188,229.5c-8.377,0-15.836,3.634-21.076,9.352l-0.076-0.057L306,330.48l-84.054-91.686l-0.077,0.057
+				c-5.221-5.718-12.68-9.352-21.057-9.352c-15.835,0-28.688,12.852-28.688,28.688c0,7.478,2.926,14.21,7.612,19.335l-0.077,0.057
+				l105.188,114.75c5.451,5.91,13.101,9.295,21.152,9.295s15.701-3.385,21.133-9.295L432.32,277.58l-0.076-0.057
+				c4.705-5.125,7.631-11.857,7.631-19.335C439.875,242.352,427.023,229.5,411.188,229.5z" />
+		</g>
+	</g>
+</g>
+</svg>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="rowD">
+                            <p class=" tableTitle1">SEGMENTATION WITHIN YOUR BOOK</p>
+                            <table id="table7">
+                                <tr><td id="table7Row2Col1"></td><td id="table7Row2Col2"><img class="tags" src="AAATag.jpg" /></td><td id="table7Row2Col3"><img class="tags" src="AATag.jpg" /></td><td id="table7Row2Col4"><img class="tags" src="ATag.jpg" /></td><td id="table7Row2Col5"><img class="tags" src="AFTag.jpg" /></td><td id="table7Row2Col6"><img class="tags" src="BTag.jpg" /></td><td id="table7Row2Col7"><img class="tags" src="CTag.jpg" /></td><td id="table7Row2Col8"><img class="tags" src="DTag.jpg" /></td></tr>
+                                <tr><td id="table7Row3Col1"><span class="table7Col1Text">Total Number of Households</span></td><td id="table7Row3Col2"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col3"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col4"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col5"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col6"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col7"><span class="table7Text ">$45.2k</span></td><td id="table7Row3Col8"><span class="table7Text ">$45.2k</span></td></tr>
+                                <tr><td id="table7Row4Col1"><span class="table7Col1Text">Total Assets Under Management</span></td><td id="table7Row4Col2"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col3"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col4"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col5"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col6"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col7"><span class="table7Text ">$15.26M</span></td><td id="table7Row4Col8"><span class="table7Text ">$15.26M</span></td></tr>
+                                <tr><td id="table7Row5Col1"><span class="table7Col1Text">Average Assets Per Household</span></td><td id="table7Row5Col2"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col3"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col4"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col5"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col6"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col7"><span class="table7Text ">$1.34M</span></td><td id="table7Row5Col8"><span class="table7Text ">$1.34M</span></td></tr>
+                                <tr><td id="table7Row6Col1"><span class="table7Col1Text">Percent of Your Assets In This Segment</span></td><td id="table7Row6Col2"><span class="table7Text ">21%</span></td><td id="table7Row6Col3"><span class="table7Text ">21%</span></td><td id="table7Row6Col4"><span class="table7Text ">21%</span></td><td id="table7Row6Col5"><span class="table7Text ">21%</span></td><td id="table7Row6Col6"><span class="table7Text ">21%</span></td><td id="table7Row6Col7"><span class="table7Text ">21%</span></td><td id="table7Row6Col8"><span class="table7Text ">21%</span></td></tr>
+                                <tr><td id="table7Row7Col1"><span class="table7Col1Text">2015 Revenue for All Households</span></td><td id="table7Row7Col2"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col3"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col4"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col5"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col6"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col7"><span class="table7Text ">$525.3k</span></td><td id="table7Row7Col8"><span class="table7Text ">$525.3k</span></td></tr>
+                                <tr><td id="table7Row8Col1"><span class="table7Col1Text">Annual Revenue Per Household</span></td><td id="table7Row8Col2"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col3"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col4"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col5"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col6"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col7"><span class="table7Text ">$45.2k</span></td><td id="table7Row8Col8"><span class="table7Text ">$45.2k</span></td></tr>
+                                <tr><td id="table7Row9Col1"><span class="table7Col1Text">Percent of Your Revenue from This Segment</span></td><td id="table7Row9Col2"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col3"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col4"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col5"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col6"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col7"><span class="table7Text ">$12%k</span></td><td id="table7Row9Col8"><span class="table7Text ">$12%k</span></td></tr>
+                            </table>
+                        </div>
+                        <a href="#" id="toTop1">Go to top <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="6px" height="8px" viewBox="0 0 45.871 45.871" style="enable-background:new 0 0 45.871 45.871;"
+     xml:space="preserve">
+<g>
+<path d="M44.68,29.383L26.728,11.52c-2.098-2.087-5.488-2.087-7.585,0L1.19,29.383c-1.16,1.155-1.509,2.707-0.884,4.222
+		c0.624,1.512,2.099,2.311,3.735,2.311h37.786c1.638,0,3.112-0.799,3.736-2.312C46.189,32.09,45.84,30.539,44.68,29.383z" />
+</g>
+</svg></a>
+                        <div id="rowE">
+                            <div id="centerE">
+                                <p class="tableTitle1">PERFORMANCE OF ALL HOLDINGS</p>
+                                <img id="performanceHoldings" src="performanceHoldings.jpg" />
+                            </div>
+                            <div id="rightE">
+                                <p class="tableTitle2">PERFORMANCE OVER TIME</p>
+                                <table id="table9">
+                                    <tr><td id="table9Row1Col1"><span id="table9Row1Col1Text">Timeframe</span></td><td id="table9Row1Col2"><span id="table9Row1Col2Text">Your Book<br />of Business</span></td><td id="table9Row1Col3"><span id="table9Row1Col3Text">S&P 500<br /></span><span id="table9Row1Col3TextBlue">Change</span></td></tr>
+                                    <tr><td id="table9Row2Col1"><span class="table9TimeframeData">1 day</span></td><td id="table9Row2Col2"><span class="YBBusiness">+2.49%</span></td><td id="table9Row2Col3"><span  class="SPChange">+4.37%</span></td></tr>
+                                    <tr><td id="table9Row3Col1"><span class="table9TimeframeData">1 week</span></td><td id="table9Row3Col2"><span class="YBBusiness">+0.89%</span></td><td id="table9Row3Col3"><span  class="SPChange">-0.13%</span></td></tr>
+                                    <tr><td id="table9Row4Col1"><span class="table9TimeframeData">1 month</span></td><td id="table9Row4Col2"><span class="YBBusiness">-0.73%</span></td><td id="table9Row4Col3"><span  class="SPChange">-0.38%</span></td></tr>
+                                    <tr><td id="table9Row5Col1"><span class="table9TimeframeData">3 months</span></td><td id="table9Row5Col2"><span class="YBBusiness">+5.18%</span></td><td id="table9Row5Col3"><span  class="SPChange">+4.37%</span></td></tr>
+                                    <tr><td id="table9Row6Col1"><span class="table9TimeframeData">1 year</span></td><td id="table9Row6Col2"><span class="YBBusiness">-0.35%</span></td><td id="table9Row6Col3"><span  class="SPChange">-0.13%</span></td></tr>
+                                    <tr><td id="table9Row7Col1"><span class="table9TimeframeData">3 years</span></td><td id="table9Row7Col2"><span class="YBBusiness">+5.88%</span></td><td id="table9Row7Col3"><span  class="SPChange">+6.37%</span></td></tr>
+                                </table>
+                                <script src="percentScript.js">
+                                </script>
+                            </div>
+                        </div>
+                        <div id="rowF">
+                            <p class="tableTitle1">ACCOUNT TYPES</p>
+                            <div id="centerF">
+                                <table id="table10">
+                                    <tr><td id="table10Row1Col1"><span class="table10Row1Col1Text">Account<br />Type</span></td><td id="table10Row1Col2"><select id="table10Row1Col2Select"><option value="Total Assets">Total Assets</option></select><span class="table10Row1Text"></span></td><td id="table10Row1Col3"><span id="table10Row1Col3Text">3 MonthChange<br />In Assets</span></td><td id="table10Row1Col4"><span id="table10Row1Col4Text">Number of<br />Households</span></td><td id="table10Row1Col5"><span id="table10Row1Col5Text">Number of<br />Accounts</span></td></tr>
+                                    <tr><td id="table10Row2Col1"><span class="table10Col1Text">Advisory Brokerage</span></td><td id="table10Row2Col2"><span class="table10Col2Value">2908489.45</span></td><td id="table10Row2Col3"><span class="table10Col3Value">38489.45</span></td><td id="table10Row2Col4"><span class="table10Col4Text">89</span></td><td class="table10Row2Col5"><span class="table10Col5Text">135</span></td></tr>
+                                    <tr><td id="table10Row3Col1"><span class="table10Col1Text">Retail Brokerage</span></td><td id="table10Row3Col2"><span class="table10Col2Value">2490290.87</span></td><td id="table10Row3Col3"><span class="table10Col3Value">-2290.87</span></td><td id="table10Row3Col4"><span class="table10Col4Text">75</span></td><td class="table10Row3Col5"><span class="table10Col5Text">156</span></td></tr>
+                                    <tr><td id="table10Row4Col1"><span class="table10Col1Text">401k</span></td><td id="table10Row4Col2"><span class="table10Col2Value">1568290.39</span></td><td id="table10Row4Col3"><span class="table10Col3Value">38290.39</span></td><td id="table10Row4Col4"><span class="table10Col4Text">102</span></td><td class="table10Row4Col5"><span class="table10Col5Text">287</span></td></tr>
+                                    <tr><td id="table10Row5Col1"><span class="table10Col1Text">Traditonal IRA</span></td><td id="table10Row5Col2"><span class="table10Col2Value">1339190.48</span></td><td id="table10Row5Col3"><span class="table10Col3Value">9190.48</span></td><td id="table10Row5Col4"><span class="table10Col4Text">60</span></td><td class="table10Row5Col5"><span class="table10Col5Text">82</span></td></tr>
+                                    <tr><td id="table10Row6Col1"><span class="table10Col1Text">Roth IRA</span></td><td id="table10Row6Col2"><span class="table10Col2Value">738290.39</span></td><td id="table10Row6Col3"><span class="table10Col3Value">28290.39</span></td><td id="table10Row6Col4"><span class="table10Col4Text">40</span></td><td class="table10Row6Col5"><span class="table10Col5Text">102</span></td></tr>
+                                    <tr><td id="table10Row7Col1"><span class="table10Col1Text">SEP IRA</span></td><td id="table10Row7Col2"><span class="table10Col2Value">722290.19</span></td><td id="table10Row7Col3"><span class="table10Col3Value">1290.39</span></td><td id="table10Row7Col4"><span class="table10Col4Text">19</span></td><td class="table10Row7Col5"><span class="table10Col5Text">45</span></td></tr>
+                                    <tr><td id="table10Row8Col1"><span class="table10Col1Text">529 & Education Savings</span></td><td id="table10Row8Col2"><span class="table10Col2Value">618290.39</span></td><td id="table10Row8Col3"><span class="table10Col3Value">8290.39</span></td><td id="table10Row8Col4"><span class="table10Col4Text">60</span></td><td class="table10Row8Col5"><span class="table10Col5Text">16</span></td></tr>
+                                    <tr><td id="table10Row9Col1"><span class="table10Col1Text">Bank Accounts</span></td><td id="table10Row9Col2"><span class="table10Col2Value">338290.39</span></td><td id="table10Row9Col3"><span class="table10Col3Value">-13290.39</span></td><td id="table10Row9Col4"><span class="table10Col4Text">35</span></td><td class="table10Row9Col5"><span class="table10Col5Text">47</span></td></tr>
+                                </table>
+                            </div>
+                            <div id="rightF">
+                                <table id="table11">
+                                    <tr><td id="table11Row1"><img id="pie1" src="pie1.jpg" /></td></tr>
+                                    <tr><td id="table11Row2"><img id="pie2" src="pie2.jpg" /></td></tr>
+                                    <tr><td id="table11Row3"><img id="pie3" src="pie3.jpg" /></td></tr>
+                                    <tr><td id="table11Row4"><img id="pie4" src="pie4.jpg" /></td></tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="rowG">
+                            <div id="leftG">
+                                <p class="tableTitle" style="color: #2f6a66">TOTAL REVENUE</p>
+                                <table id="table12">
+                                    <tr><td id="table12Row1"><img class="rowG" src="totalRevenue.jpg" /></td></tr>
+                                    <tr><td id="table12Row2Col1"><span class="rowGText">2014 Goal</span></td><td id="table12Row2Col2"><span class="table12Col2Value">1600000</span></td></tr>
+                                    <tr><td id="table12Row3Col1"><span class="rowGText">2014 Year-To-Date</span></td><td id="table12Row3Col2"><span class="table12Col2Value">529290</span></td></tr>
+                                    <tr><td id="table12Row4Col1"><span class="rowGText">2013 Year-To-Date</span></td><td id="table12Row4Col2"><span class="table12Col2Value">497297</span></td></tr>
+                                    <tr><td id="table12Row5Col1"><span class="rowGText">vs. Last Year</span></td><td id="table12Row5Col2"><span class="table12Col2ValuePM">1222</span></td></tr>
+                                </table>
+                            </div>
+                            <div id="centerG">
+                                <p class="tableTitle" style="color: #0a398f">RECURRING REVENUE</p>
+                                <table id="table13">
+                                    <tr><td id="table13Row1"><img class="rowG" src="recurringRevenue.jpg" /></td></tr>
+                                    <tr><td id="table13Row2Col1"><span class="rowGText">2014 Goal</span></td><td id="table13Row2Col2"><span class="rowGValuePercent">80</span></td><td id="table13Row2Col3"><span class="table13Col2">1600000</span></td></tr>
+                                    <tr><td id="table13Row3Col1"><span class="rowGText">2014 Year-To-Date</span></td><td id="table13Row3Col2"><span class="rowGValuePercent">60</span></td><td id="table13Row3Col3"><span class="table13Col2">529290</span></td></tr>
+                                    <tr><td id="table13Row4Col1"><span class="rowGText">2013 Year-To-Date</span></td><td id="table13Row4Col2"><span class="rowGValuePercent">63</span></td><td id="table13Row4Col3"><span class="table13Col2">497297</span></td></tr>
+                                    <tr><td id="table13Row5Col1"><span class="rowGText">vs. Last Year</span></td><td id="table13Row5Col2"><span class="rowGValuePercentP_M">-30</span></td><td id="table13Row5Col3"><span class="table13Col2PM">-31933</span></td></tr>
+                                </table>
+                            </div>
+                            <div id="rightG">
+                                <p class="tableTitle" style="color: #99001e">ADVISORY REVENUE</p>
+                                <table id="table14">
+                                    <tr><td id="table14Row1"><img class="rowG" src="advisoryRevenue.jpg" /></td></tr>
+                                    <tr><td id="table14Row2Col1"><span class="rowGText">2014 Goal</span></td><td id="table14Row2Col2"><span class="rowGValuePercent">30</span></td><td id="table14Row2Col3"><span class="table14Col2">500000</span></td></tr>
+                                    <tr><td id="table14Row3Col1"><span class="rowGText">2014 Year-To-Date</span></td><td id="table14Row3Col2"><span class="rowGValuePercent">28</span></td><td id="table14Row3Col3"><span class="table14Col2">139290</span></td></tr>
+                                    <tr><td id="table14Row4Col1"><span class="rowGText">2013 Year-To-Date</span></td><td id="table14Row4Col2"><span class="rowGValuePercent">27</span></td><td id="table14Row4Col3"><span class="table14Col2">127297</span></td></tr>
+                                    <tr><td id="table14Row5Col1"><span class="rowGText">vs. Last Year</span></td><td id="table14Row5Col2"><span class="rowGValuePercentP_M">1</span></td><td id="table14Row5Col3"><span class="table14Col2PM">12933</span></td></tr>
+                                </table>
+                                <script src="percentScript.js">
+                                </script>
+                                <script src="commaScript.js">
+                                </script>
+                            </div>
+                            <div id="tail">
+                                <span id="copyright">&#169 Copyright 2016  Wells Fargo Advisors</span><span id="internal">Internal Use Only</span>
+                            </div>
+                        </div>
+                        <a href="#" id="toTop2">
+                            Go to top <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                          width="6px" height="8px" viewBox="0 0 45.871 45.871" style="enable-background:new 0 0 45.871 45.871;"
+                                          xml:space="preserve">
+<g>
+<path d="M44.68,29.383L26.728,11.52c-2.098-2.087-5.488-2.087-7.585,0L1.19,29.383c-1.16,1.155-1.509,2.707-0.884,4.222
+		c0.624,1.512,2.099,2.311,3.735,2.311h37.786c1.638,0,3.112-0.799,3.736-2.312C46.189,32.09,45.84,30.539,44.68,29.383z" />
+</g>
+</svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <div id="lb">
+                    <div id="lbTitleBox">
+                        <!--SVG Icon-->
+                        <div>
+                            <svg version="1.1" id="leftBarIconRight" width="35px" height="50px" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="16px" y="13px"
+                     viewBox="0 0 30.272 30.272" style="enable-background:new 0 0 30.272 30.272;" xml:space="preserve">
+                <g>
+                <g>
+                <path d="M13.53,3.182l-0.002,13.527l13.53,0.003c0,7.473-6.055,13.528-13.528,13.528C6.058,30.241,0,24.185,0,16.713
+			                                                            C0,9.264,6.017,3.224,13.452,3.182C13.479,3.182,13.505,3.182,13.53,3.182z" />
+                <path d="M15.71,0.032c8.043,0,14.562,6.523,14.562,14.566L15.7,14.614C15.7,14.614,15.652,0.032,15.71,0.032z" />
+	                                                            </g>
+                <g>
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                        </div><!-------------------------------------End SVG Icon--------------------------------------------------------->
+                        <p id="pm">
+                            Book<br />Analyzer
+                        </p>
+                        <div id="lbList">
+                      <nav>
+                    <div id="menu-v" class="nav">
+                        <div  class="leftBarText"><a href="#" class="leftBarText">My Home Page</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Task Tracker</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Calendar</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Activity Stream</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Service & Activity Plans</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Goals & Business Plans</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Briefcase</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Reports & Presentation Maker</a></div>
+                        <div  class="leftBarText"><a href="#" class="leftBarText">Settings & Preferences</a></div>
+                    </div>
+                </nav>
+                        </div>
+                    </div>
+                </div>
+ 
+    <div id="leftbar">
+        <div id="leftBarIcon">
+            <button type="button" class=" iconLeft" fill="#000000" onClick="backToMainDashboard()">
+                <svg width="50" height="55">
+                    <svg version="1.1"  width="35px" height="35px" fill="#595959" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="6px" y="10px"
+                         viewBox="0 0 31.79 31.79" style="enable-background:new 0 0 31.79 31.79;" xml:space="preserve">
+                    <g>
+                    <g>
+                    <path d="M21.067,4.89c0-0.701-0.567-1.269-1.268-1.269h-0.711c0.018-0.133,0.029-0.28,0.029-0.425C19.118,1.434,17.683,0,15.921,0
+			                                                            c-1.763,0-3.196,1.434-3.196,3.196c0,0.144,0.01,0.292,0.028,0.425h-0.697c-0.7,0-1.269,0.568-1.269,1.269H6.984
+			                                                            c-1.438,0-2.604,1.166-2.604,2.604v21.691c0,1.438,1.166,2.604,2.604,2.604h17.822c1.438,0,2.604-1.166,2.604-2.604V7.494
+			                                                            c0-1.438-1.166-2.604-2.604-2.604H21.067z M14.643,3.196c0-0.704,0.573-1.278,1.278-1.278c0.705,0,1.279,0.573,1.279,1.278
+			                                                            c0,0.149-0.026,0.291-0.074,0.425h-2.409C14.671,3.488,14.643,3.346,14.643,3.196z M24.872,27.754
+			                                                            c0,0.791-0.643,1.432-1.434,1.432H8.414c-0.79,0-1.431-0.641-1.431-1.432V8.925c0-0.791,0.641-1.431,1.431-1.431h2.374v1.267
+			                                                            c0,0.701,0.568,1.269,1.269,1.269H19.8c0.699,0,1.268-0.568,1.268-1.269V7.494h2.375c0.789,0,1.431,0.641,1.431,1.431
+			                                                            L24.872,27.754L24.872,27.754z" />
+                    <path d="M10.192,12.833c-0.707,0-1.279,0.563-1.279,1.269s0.572,1.269,1.279,1.269h11.509c0.707,0,1.278-0.562,1.278-1.269
+			                                                            c0-0.706-0.571-1.269-1.278-1.269H10.192z" />
+                    <path d="M21.701,17.038H10.192c-0.707,0-1.279,0.597-1.279,1.303c0,0.705,0.572,1.304,1.279,1.304h11.509
+			                                                            c0.707,0,1.278-0.599,1.278-1.304C22.979,17.633,22.408,17.038,21.701,17.038z" />
+                    <path d="M21.701,21.311H10.192c-0.707,0-1.279,0.562-1.279,1.269c0,0.705,0.572,1.269,1.279,1.269h11.509
+			                                                            c0.707,0,1.278-0.562,1.278-1.269S22.408,21.311,21.701,21.311z" />
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+                </svg>
+            </button>
+            <script> function backToMainDashboard(){
+					location.href = "http://mdgeppert.x10host.com/dashboard/index.html"
+				}
+			</script>
+            <button type="button" class=" iconLeft">
+                <svg version="1.1"  width="35px" height="50px" fill="#ED8800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="16px" y="13px"
+                     viewBox="0 0 30.272 30.272" style="enable-background:new 0 0 30.272 30.272;" xml:space="preserve">
+                <g>
+                <g> 
+                <path d="M13.53,3.182l-0.002,13.527l13.53,0.003c0,7.473-6.055,13.528-13.528,13.528C6.058,30.241,0,24.185,0,16.713
+			                                                            C0,9.264,6.017,3.224,13.452,3.182C13.479,3.182,13.505,3.182,13.53,3.182z" />
+                <path d="M15.71,0.032c8.043,0,14.562,6.523,14.562,14.566L15.7,14.614C15.7,14.614,15.652,0.032,15.71,0.032z" />
+	                                                            </g>
+                <g>
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+            </button>
+            
+            <button type="button" class=" iconLeft" onClick="toClientHousehold()">
+                <svg version="1.1"  height="50" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="15px" y="20px"
+                     viewBox="0 0 25.96 25.96" style="enable-background:new 0 0 25.96 25.96;" xml:space="preserve">
+                <g>
+                <g>
+                <path style="fill:#595959;" d="M11.896,17.15c-0.131-0.043-0.953-0.887-0.439-2.474H11.45c1.34-1.401,2.487-3.655,2.487-5.876
+			                                                            c0-3.412-2.359-5.201-4.957-5.201c-2.6,0-4.855,1.789-4.855,5.201c0,2.229,1.051,4.492,2.398,5.892
+			                                                            c0.525,1.398-0.414,2.384-0.611,2.458C3.192,18.148,0,19.97,0,21.767c0,0.485,0,0.191,0,0.674c0,2.449,4.677,3.006,9.006,3.006
+			                                                            c4.334,0,8.953-0.557,8.953-3.006c0-0.482,0-0.188,0-0.674C17.959,19.915,14.751,18.109,11.896,17.15z" />
+	                                                            </g>
+                <g>
+                <path style="fill:#595959;" d="M20.259,12.651c-0.122-0.041-0.896-0.23-0.413-1.723H19.84c1.26-1.316,2.129-3.438,2.129-5.523
+			                                                            c0-3.209-2.01-4.891-4.452-4.891c-1.798,0-3.347,0.918-4.042,2.678c1.459,1.205,2.463,3.081,2.463,5.607
+			                                                            c0,2.697-1.264,5.158-2.586,6.746c2.106,0.797,5.397,2.4,6.339,4.85c3.318-0.184,6.269-0.873,6.269-2.771c0-0.453,0-0.177,0-0.633
+			                                                            C25.959,15.251,22.943,13.552,20.259,12.651z" />
+	                                                            </g>
+                                                            </g>
+                                                                    </svg>
+            </button>
+            <script> function toClientHousehold(){
+					location.href = "http://mdgeppert.x10host.com/dashboard/clientHousehold/index.html"
+				}
+			</script>
+            <button type="button" class=" iconLeft" onClick="openMarketsAdvice()">
+                <svg version="1.1"  height="55" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="18px" y="15px"
+                     viewBox="0 0 581.176 581.176" style="enable-background:new 0 0 581.176 581.176;" xml:space="preserve">
+                <g>
+                <g>
+                <g>
+                <polygon points="66.424,514.777 581.176,514.777 581.176,581.176 0,581.176 0,0 66.424,0" fill="#595959" />
+                <rect x="466.37" y="330.447" width="71.63" height="136.165" fill="#595959" />
+                <rect x="350.11" y="214.212" width="71.678" height="252.424" fill="#595959" />
+                <rect x="233.899" y="295.552" width="71.63" height="171.06" fill="#595959" />
+                <rect x="117.616" y="98.001" width="71.678" height="368.635" fill="#595959" />
+		                                                            </g>
+	                                                            </g>
+                                                            </g>
+                                                            </svg>
+            </button>
+            <script> function openMarketsAdvice(){
+					location.href = "http://mdgeppert.x10host.com/dashboard/marketsAdvice/index.html"
+				}
+			</script>
+            <button type="button" class=" iconLeft">
+                <svg version="1.1"  height="50px" width="30px" fill="#595959" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="25px"
+                     viewBox="0 0 502.707 502.707" style="enable-background:new 0 0 502.707 502.707;" xml:space="preserve">
+<g>
+                <g>
+                <g>
+                <path d="M282.815,24.677C276.537,10.16,262.128,0,245.368,0H81.732v1.359c13.223,2.588,24.03,11.368,29.379,23.318H43.444v478.03
+				h415.82V24.677H282.815z M430.057,473.436c-26.058,0-331.284,0-357.298,0c0-26.489,0-393.02,0-419.487c4.94,0,20.104,0,41.502,0
+				V341.53l83.738-90.123l88.16,90.123V53.949c69.976,0,132.703,0,143.92,0C430.057,80.437,430.057,447.011,430.057,473.436z" />
+		</g>
+	</g>
+	</g></svg>
+            </button>
+        </div>
+    </div>
+    <script src="leftRailScript.js" type="text/javascript">
+    </script>
+
+</body>
+</html>

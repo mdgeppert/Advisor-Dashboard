@@ -1,0 +1,116 @@
+﻿#clientInfoBar {
+    height: 110px;
+    left: 70px;
+    right: 0;
+    margin-top: 178px;
+    border-bottom: 1px solid #595959;
+    background: #E8E8E8;
+    float: left;
+    position: fixed;
+}
+
+#clientInfoBarSect1 {
+    height: 110px;
+    top: 0;
+    left: 0;
+    width: 17%;
+    text-align: left;
+    font: 12px arial;
+    border-right: 1px dotted #ACACAC;
+    float: left;
+    position: absolute;
+}
+
+#segmentation {
+    width: 60%;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 3vw;
+    text-align: left;
+    font: 12px arial;
+    position: absolute;
+}
+
+#clientInfoBarSect2 {
+    height: 110px;
+    left: 17%;
+    top: 0;
+    width: 22%;
+    border-right: 1px dotted #ACACAC;
+    float: left;
+    position: absolute;
+}
+
+#internalMarketValue {
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3px;
+    font: 12px arial;
+    border-bottom: 1px solid #7A7A7A;
+    position: absolute;
+}
+
+#clientInfoBarSect3 {
+    height: 110px;
+    left: 39%;
+    top: 0;
+    width: 22%;
+    font: 12px arial;
+    border-right: 1px dotted #ACACAC;
+    position: absolute;
+    float: left;
+}
+
+#netWorth {
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3px;
+    font: 12px arial;
+    border-bottom: 1px solid #7A7A7A;
+    position: absolute;
+}
+
+#clientInfoBarSect4 {
+    height: 110px;
+    left: 61%;
+    top: 0;
+    width: 22%;
+    border-right: 1px dotted #ACACAC;
+    position: absolute;
+    float: left;
+}
+
+#envision {
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3px;
+    font: 12px arial;
+    border-bottom: 1px solid #7A7A7A;
+    position: absolute;
+}
+
+#clientInfoBarSect5 {
+    height: 110px;
+    right: 0;
+    left: 83%;
+    top: 3px;
+    width: 17%;
+    position: absolute;
+    font: 12px arial;
+    float: left;
+}
+
+#accessOnline {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3px;
+    font: 12px arial;
+    text-align: left;
+    position: absolute;
+}

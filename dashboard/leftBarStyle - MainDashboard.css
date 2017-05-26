@@ -1,0 +1,158 @@
+﻿/*Left Vertical Expanding Bar*/
+
+/* v2.4 */
+
+#leftbar {
+    left: 0;
+    width: 5vw;
+    height: 100%;
+    top: 0;
+    background-color: #000000;
+    position: fixed;
+}
+
+a:link {
+color: #e5e5e5;
+}
+a:visited {
+color: #e5e5e5;
+}
+a:hover {
+color: #FFFFFF;
+}
+
+#lb {
+   top: 0;
+   bottom: 0;
+    width: 17.25vw;
+    background: #333333;
+    left: -13%;
+    border-radius: 0 16px 16px 0;
+    position: absolute;
+}
+
+#lbTitleBoxMD {
+    height: 10vh;
+    width: 17.25vw;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #AE1E23;
+    border-radius: 0 16px 0 0;
+    position: absolute;
+}
+
+#pm {
+    margin-left: 15px;
+    margin-top: -3vw;
+    color: #FFFFFF;
+    font: 1.4vw Arial;
+}
+
+#leftBarIcon{
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+
+.iconLeft {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10%;
+    background: #000000;
+    border: none;
+    height: 60px;
+    width: 3.5vw;
+    text-align: center;
+}
+
+.iconLeft:hover {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10%;
+    border: none;
+    height: 60px;
+    width: 3.5vw;
+    text-align: center;
+    background: #E5E5E5;
+    border-radius: 30px;
+}
+
+
+#activeLeftIcon {
+    float: left;
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+#leftBarIconRight {
+    margin-top: 15px;
+    margin-left: 12vw;
+}
+
+#lbList{
+    margin-top: 60px;
+}
+
+.leftBarText{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 1.125vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #e5e5e5;
+}
+
+.leftBarText:hover{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 1.125vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+}
+
+#pointer{
+    margin-top: 100px;
+    margin-right: -5px;
+    float: right;
+    fill: #FFFFFF;
+}
+
+#lowerLeft{
+    margin-top: 325px;
+    margin-left: 0;
+    width: 280px;
+    height: 408px;
+    border-radius: 0 0 16px 0;
+    background: #000000;
+    position: absolute;
+}
+
+#lowerLeftMenus{
+    margin-left: -500px;
+    height: 35px;
+    width: 275px;
+    margin-bottom: 1px;
+    text-align: left;
+    background: -webkit-linear-gradient(#FFFFFF, #ACACAC, #ACACAC);
+    border: 0;
+}
+
+#lowerLeftMenus:hover{
+    margin-left: -500px;
+    height: 35px;
+    width: 275px;
+    margin-bottom: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(#FFFFFF, #595959, #595959);
+    border: 0;
+}
+
+#droppedDownMenu{
+    margin-left: 50px;    
+}
+
+/*Misc*/
+
+

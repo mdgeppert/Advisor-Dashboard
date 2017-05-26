@@ -1,0 +1,987 @@
+﻿#bottom {
+    top: 300px;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+    overflow: auto;
+    position: absolute;
+}
+
+#bottom::-webkit-scrollbar{
+    width: 8px;
+}
+
+#bottom::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#bottom::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#bottom::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+.text {
+    color: #FFFFFF;
+    font: 14px Arial;
+    margin-top: 2px;
+    margin-left: 3%;
+    position: absolute;
+}
+    /* Row 6*/
+
+#aboutTheHousehold{
+    left: 160px;
+    width: 74%;
+    top: 300px;
+    height: 20px;
+    background: #F7F7F7;
+    position: absolute fixed;
+}
+
+#peopleBar {
+    height: 20px;
+    top: 20px;
+    left: 3vw;
+    width: 40vw;
+    background-color: #00698C;
+    position: absolute;
+}
+
+#people {
+    height: 430px;
+    background-color: #F7F7F7;
+    top: 19px;
+    width: 100%;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+    overflow-y: auto;
+    position: absolute;
+}
+
+#collapsePeople {
+    position: absolute;
+    left: 96%;
+    margin-top: 2px;
+    height: 14px;
+    width: 14px;
+}
+
+.contactInfoBar {
+    height: 20px;
+    top: 20px;
+    left: 44vw;
+    width: 27vw;
+    background-color: #00698C;
+    position: absolute;
+}
+
+#contactInformation {
+    height: 100px;
+    width: 100%;
+    background-color: #F7F7F7;
+    top: 20px;
+    box-shadow: -5px 10px 30px -10px rgba(0, 0, 0, .5);
+    position: absolute;
+    overflow-y: auto;
+}
+
+#contactInformation::-webkit-scrollbar{
+    width: 8px;
+}
+
+#contactInformation::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#contactInformation::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#contactInformation::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#iconTable{
+    left: 75%;
+    width: 25%;
+    top: 0;
+    height: 150px;
+    position: absolute;
+
+}
+
+#tableButton1{
+    height: 50px;
+    width: 50px;
+    left: 5%;
+    top: 0;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButtonName1{
+    font: 10px arial;
+    margin-top: 40px;
+    left: 6%;
+    position: absolute;
+    color: #000000;
+}
+
+#tableButton1:hover{
+      height: 50px;
+    width: 50px;
+    left: 5%;
+    top: 0;
+    text-align: center;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton2{
+    height: 50px;
+    width: 50px;
+    left: 38%;
+    top: 0;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton2:hover{
+    height: 50px;
+    width: 50px;
+    left: 38%;
+    top: 0;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    background: #FFFFFF;
+    position: absolute;
+}
+
+#tableButtonName2{
+    font: 10px arial;
+    margin-top: 40px;
+    left: 42%;
+    position: absolute;
+    color: #000000;
+}
+
+#rightDropDown2{
+    height: 15px;
+    width: 15px;
+    left: 55%;
+    top: 20px;
+    text-align: center;
+    background: #00698C;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#rightCircleCheck{
+    left: 15%;
+    margin-top: -5px;
+    fill: white;
+    position: absolute;
+}
+
+#tableButton3{
+    height: 50px;
+    width: 50px;
+    left: 72%;
+    top: 0;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton3:hover{
+    height: 50px;
+    width: 50px;
+    left: 72%;
+    top: 0;
+    text-align: center;
+    border: none;
+    border-radius: 50px;;
+    background: #FFFFFF;
+    position: absolute;
+}
+
+#tableButtonName3{
+    font: 10px arial;
+    margin-top: 40px;
+    margin-left: 67%;
+    position: absolute;
+    color: #000000;
+}
+
+#rightDropDown3{
+    height: 15px;
+    width: 15px;
+    left: 89%;
+    top: 20px;
+    text-align: center;
+    background: #00698C;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#rightCircleCheck3{
+    left: 20%;
+    margin-top: -5px;
+    fill: white;
+    position: absolute;
+}
+
+#tableButton4{
+    height: 50px;
+    width: 50px;
+    left: 5%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton4:hover{
+    height: 50px;
+    width: 50px;
+    left: 5%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: #FFFFFF;
+    position: absolute;
+}
+
+#tableButtonName4{
+    font: 10px arial;
+    margin-top: 105px;
+    margin-left: 4%;
+    position: absolute;
+    color: #000000;
+}
+
+#rightDropDown4{
+    height: 15px;
+    width: 15px;
+    left: 22%;
+    top: 80px;
+    text-align: center;
+    background: #00698C;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#rightCircleCheck4{
+    margin-left: -4px;
+    margin-top: -9px;
+    fill: white;
+}
+
+#tableButton5{
+    height: 50px;
+    width: 50px;
+    left: 38%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton5:hover{
+    height: 50px;
+    width: 50px;
+    left: 38%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+#tableButtonName5{
+    font: 10px arial;
+    margin-top: 105px;
+    margin-left: 40%;
+    position: absolute;
+    color: #000000;
+}
+
+#rightDropDown5{
+    height: 15px;
+    width: 15px;
+    left: 55%;
+    top: 80px;
+    text-align: center;
+    background: #00698C;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#rightCircleCheck5{
+    left: 19.5%;
+    margin-top: -5px;
+    fill: white;
+    position: absolute;
+}
+
+#tableButton6{
+    height: 50px;
+    width: 50px;
+    left: 72%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#tableButton6:hover{
+    height: 50px;
+    width: 50px;
+    left: 72%;
+    top: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+#tableButtonName6{
+    font: 10px arial;
+    margin-top: 105px;
+    margin-left: 73.5%;
+    position: absolute;
+    color: #000000;
+}
+
+#subBoxTitleBarRight{
+    width: 28%;
+    height: 20px;
+    left: 70%;
+    top: 350px;
+    background-color: green;
+    position: absolute;
+}
+
+#sendCorrespondenceBar{
+    height: 20px;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: #00698C;
+    position: absolute;
+}
+
+#sendCorrespondenceBox{
+    width: 100%;
+    height: 110px;
+    left: 0;
+    top: 20px;
+    background: #F7F7F7;
+    overflow: auto;
+    position: absolute;
+}
+
+
+#sendCorrespondenceData::-webkit-scrollbar{
+    width: 8px;
+}
+
+#sendCorrespondenceData::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#sendCorrespondenceData::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#sendCorrespondenceData::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#sendCorrespondenceData{
+    width: 100%;
+    height: 80px;
+    top: 140px;
+    color: #000000;
+    left: 0;
+    overflow-y: auto;
+
+}
+
+#sendCorrespondence{
+    width: 160px;
+    font: 12px arial;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#C8C8C8, #E5E5E5, #C8C8C8);
+    border: none;
+}
+
+#sendCorrespondence:hover{
+    width: 160px;
+    font: 12px arial;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#E5E5E5, #C8C8C8, #E5E5E5);
+    border: none;
+}
+
+
+
+#sendCorrespondenceBox::-webkit-scrollbar{
+    width: 8px;
+}
+
+#sendCorrespondenceBox::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#sendCorrespondenceBox::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#sendCorrespondenceBox::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#partyClass{
+    margin-top: 0;
+    height: 50px;
+    border-bottom: 1px solid #000000;
+    list-style-type: none;
+    background: #F7F7F7;
+}
+
+#relatedPartiesTitle{
+    width: 100%;
+    height: 20px;
+    top: 250px;
+    left: 0;
+    background-color: #00698C;
+    position: absolute;
+}
+
+#relate1{
+    font: 12px arial;
+    color: #297884;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+#relate2{
+    margin-left: 19%;
+    margin-top: -15px;
+    width: auto;
+    font: 12px arial;
+    color: #000000;
+}
+
+#relatedIndicator{
+    width: 20px;
+    height: 8px;
+    margin-top: -45px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#clientName1Bar{
+    width: 100%;
+    height: 20px;
+    margin-left: 0;
+    top: 60px;
+    background-color: #ACACAC;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#clientName1Box{
+    width: 100%;
+    height: 100px;
+    background: #F7F7F7;
+    overflow-y: auto;
+    position: absolute;
+}
+
+#clientName1Box::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#clientName1Box::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#clientName1Box::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#clientName1Box::-webkit-scrollbar{
+    width: 8px;
+}
+
+#clientName2Bar {
+    width: 100%;
+    height: 20px;
+    top: 180px;
+    background-color: #ACACAC;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#clientName2Box{
+    width: 100%;
+    height: 100px;
+    background: #F7F7F7;
+    margin-top: 0;
+    overflow-y: auto;
+    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, .5);
+    position: absolute;
+}
+
+#clientName2Box::-webkit-scrollbar{
+    width: 8px;
+}
+
+#clientName2Box::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#clientName2Box::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#clientName2Box::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#textRight1{
+    color: #FFFFFF;
+    font: 14px Arial;;
+    width: 80px;
+    left: 80%;
+    position: absolute;
+}
+
+#textRight2{
+    color: #FFFFFF;
+    font: 14px Arial;;
+    margin-top: 3px;
+    margin-left:  93%;
+    position: absolute;
+}
+
+#infoIcon2{
+    margin-left: 91.5%;
+    margin-top: 2px;
+}
+
+#people::-webkit-scrollbar{
+    width: 8px;
+}
+
+#people::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#people::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#people::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#householdCommentsBar{
+    margin-top: 450px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: #00698C;
+}
+
+#householdComments{
+    margin-top: 20px;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    background: #F7F7F7;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+}
+
+#householdComments::-webkit-scrollbar{
+    width: 8px;
+}
+
+#householdComments::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#householdComments::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#householdComment::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#buttonPad{
+    position:  absolute;
+    width: 100%;
+    background: #F7F7F7;
+    margin-top: 85px;
+    height: 35px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+}
+
+#viewFORM{
+    position:  absolute;
+    font: 12px arial;
+    left: 30px;
+    top: 6px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: -webkit-linear-gradient(#C8C8C8, #E5E5E5, #C8C8C8);
+}
+
+#viewFORM:hover{
+    position:  absolute;
+    font: 12px arial;
+    left: 30px;
+    top: 6px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: -webkit-linear-gradient(#E5E5E5, #C8C8C8, #E5E5E5);
+}
+
+#serviceLevelBar {
+    top: 59.5vh;
+    height: 20px;
+    left: 0;
+    width: 68vw;
+    color: #000000;
+    background-color: #F7F7F7;
+    position: absolute;
+}
+
+#serviceLevel {
+    height: 150px;
+    width: 100%;
+    margin-top: -20px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, .5);
+    overflow-y: auto;
+    position: absolute;
+}
+
+.serviceLevel::-webkit-scrollbar{
+    width: 8px;
+}
+
+.serviceLevel::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+.serviceLevel::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+.serviceLevel::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+.whiteBackText{
+    color: #000000;
+    font: 16px arial;
+    margin-top: 0px;
+    font-weight: 800;
+    margin-left: 3%;
+}
+
+#relationship{
+    height: 50px;
+    width: 100%;
+    top: 20px;
+    left: 0;
+    position: absolute;
+    background: #F7F7F7;
+}
+
+#collapseCIB {
+    position: absolute;
+    right:10px;
+    margin-top: 3px;
+    height: 14px;
+    width: 14px;
+    float: right;
+}
+
+
+.contactInformation::-webkit-scrollbar{
+    width: 8px;
+}
+
+.contactInformation::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+.contactInformation::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+.contactInformation::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#internalAccountsBar {
+    top: 78vh;
+    height: 20px;
+    left: 0;
+    width: 68vw;
+    color: #000000;
+    background-color: #F7F7F7;
+    position: absolute;
+}
+
+#internalAccounts {
+    height: 15.5vh;
+    background-color: #F7F7F7;
+    width: 100%;
+    margin-top: -20px;
+    box-shadow: 0 15px 20px -10px rgba(0, 0, 0, .3);
+    position: absolute;
+    overflow-y: auto;
+}
+
+#internalAccounts::-webkit-scrollbar{
+    width: 8px;
+}
+
+#internalAccounts::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#internalAccounts::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#internalAccounts::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#activityStreamBar {
+    height: 50px;
+    top: 150px;
+    width: 25%;
+    left: 75%;
+    background-color: #333333;
+    position: absolute;
+}
+
+#activityCaption{
+    color: #297884;
+    font: 9px arial;
+    left: 2%;
+    top: 30px;
+    position: absolute;
+}
+
+#futureActivityBar{
+    top: -30px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: #000000;
+}
+
+#futureActivityBox{
+    top: 20px;
+    position: absolute;
+    background: #333333;
+    width: 100%;
+    height: 230px;
+    overflow: auto;
+}
+
+#futureActivityBox::-webkit-scrollbar{
+    width: 8px;
+}
+
+#futureActivityBox::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#futureActivityBox::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#futureActivityBox::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+#recentActivityBar{
+    top: 220px;
+    width: 100%;
+    height: 20px;
+    background: #000000;
+    position: absolute;
+}
+
+#recentActivityBox {
+    width: 100%;
+    top: 20px;
+    height: 560px;
+    background-color: #333333;
+    position: absolute;
+    overflow: auto;
+}
+
+#recentActivityBox::-webkit-scrollbar{
+    width: 8px;
+}
+
+#recentActivityBox::-webkit-scrollbar-track{
+    background: #CCCCCC;
+}
+
+#recentActivityBox::-webkit-scrollbar-thumb{
+    background: #000000;
+}
+
+#recentActivityBox::-webkit-scrollbar-button{
+    background: #B5B5B5;
+    height: 12px;
+}
+
+
+#activityStreamText{
+    color: #FFFFFF;
+    font: 14px arial;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.data{
+    padding: 15px;
+    font: 10px arial ;
+    color: #000000;
+}
+
+.whiteData{
+    padding: 15px;
+    font: 10px arial ;
+    color: #FFFFFF;
+}
+
+.activityText{
+    top: 3px; 
+    font: 12px arial;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#filterDrop{
+    margin-top: 25px;
+    margin-left: 35%;
+    color: #297884;
+    background: #333333;
+    border: none;
+    position: absolute;
+    
+}
+
+#activityStreamFilter{
+    height: 12px;
+    fill: #E5E5E5;
+}
+
+#filterBox{
+    width: 50px;
+    height: 70px;
+    margin-left: 80%;
+    margin-top: 0px;
+    background: #000000;
+    position: fixed;
+}
+
+
+
+
+.activityStreamData{
+    color: #FFFFFF;
+}
+
+.activityStream::-webkit-scrollbar{
+    width: 8px;
+}
+
+
+#filter{
+    color: lightblue;
+}
+
+
+.attentionIcon {
+    position: absolute;
+    margin-left: 92%;
+    margin-top: 1px;
+    fill: #E5E5E5;
+}
+
+
+#copyright{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+#internalUse{
+    position: absolute;
+    font: 14px arial;
+    font-weight: 800;
+    left: 62%;
+    top: 0;
+    color: #FF4D4D;
+}
+

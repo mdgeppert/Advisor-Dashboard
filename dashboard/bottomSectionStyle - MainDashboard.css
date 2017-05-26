@@ -1,0 +1,349 @@
+﻿/*Data Windows Section*/
+
+#bottom{
+    left: 5%;
+    top: 150px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.data{
+    font: 14px arial;
+    padding: 20px;
+    margin-bottom: 8px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 30px;
+    position: absolute fixed;
+}
+
+#boxColumnLeft {
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 35vw;
+    height: 40px;
+    background-color: #005500;
+    position: absolute;
+}
+
+#collapseITN{
+    position: absolute;
+    margin-left: 32.75vw;
+    margin-top: 12px;
+    height: 16px;
+    width: 16px;
+	display:none;
+}
+
+#inTheNews {
+    height: 350px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 40px;
+    display: block;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+    overflow-y: scroll;
+    position: absolute;                     
+}
+
+ #inTheNews::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #inTheNews::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+    #inTheNews::-webkit-scrollbar-thumb {
+        background: #727272;
+        height: 1%;
+    }
+
+    #inTheNews::-webkit-scrollbar-button {
+        background: #B5B5B5;
+        height: 12px;
+    }
+
+#opportunitiesBar{
+    margin-top: 460px;
+    margin-left: 2%;
+    width: 35vw;
+    height: 40px;
+    background-color: #007337;
+    position: absolute;
+}
+
+#opportunities {
+    height: 350px;
+    width:100%;
+    margin-left: 0px;
+    margin-top: 40px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, .5);
+    overflow-y: scroll;
+    position: absolute;
+}
+
+ #opportunities::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #opportunities::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+    #opportunities::-webkit-scrollbar-thumb {
+        background: #727272;
+        height: 1%;
+    }
+
+    #opportunities::-webkit-scrollbar-button {
+        background: #B5B5B5;
+        height: 12px;
+    }
+
+#boxColumnCenter {
+    width: 35vw;
+    height: 40px;
+    margin-left: 38.5%;
+    margin-top: 10px;
+    background-color: purple;
+    position: absolute;
+}
+
+#collapseTC{
+    position: absolute;
+    margin-left: 32.75vw;
+    margin-top: 12px;
+    height: 16px;
+    width: 16px;
+}
+
+#todaysComments {
+    height: 350px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-left: 0%;
+    margin-top: 40px;
+    display: block;
+    box-shadow: -5px 10px 30px -10px rgba(0, 0, 0, .5);
+    position: absolute;
+    overflow-y: scroll;
+}
+
+ #todaysComments::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #todaysComments::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+    #todaysComments::-webkit-scrollbar-thumb {
+        background: #727272;
+        height: 1%;
+    }
+
+    #todaysComments::-webkit-scrollbar-button {
+        background: #B5B5B5;
+        height: 12px;
+    }
+
+#repCodesTitle{
+    right: 40%;
+    margin-top: 430px;
+    color: #000000;
+    position: absolute;
+}
+
+#repCodes{
+    width: 150px;
+    height: 20px;
+    margin-left: 110%;
+    margin-top: -21px;
+    background-color: #F7F7F7;
+    position: absolute;
+}
+
+#refresh{
+    margin-top: -21px;
+    margin-left: 322%;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+}
+
+#adviceAndGuidanceBar{
+    margin-top: 460px;
+    margin-left: 38.5%;
+    width: 35vw;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+}
+
+#aAndGText{
+    color: #FFFFFF;
+    font: 18px arial;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#adviceAndGuidance {
+    height: 350px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-left: 0px;
+    margin-top: 40px;
+    display: block;
+    box-shadow: 0px 15px 20px -10px rgba(0, 0, 0, .3);
+    position: absolute;
+    overflow-y: scroll;
+}
+
+ #adviceAndGuidance::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #adviceAndGuidance::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+    #adviceAndGuidance::-webkit-scrollbar-thumb {
+        background: #727272;
+        height: 1%;
+    }
+
+    #adviceAndGuidance::-webkit-scrollbar-button {
+        background: #B5B5B5;
+        height: 12px;
+    }
+
+#boxColumnRight {
+    width: 19vw;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 75vw;
+    background-color: #297884;
+    position: absolute;
+}
+
+#collapseMS{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin-left: 16vw;
+    margin-top: -18px;
+}
+
+#marketSummary {
+    
+    margin-top: 40px;
+    height: 350px;
+    width: 100%;
+    background-color: #F7F7F7;
+    box-shadow: 0px 15px 20px -10px rgba(0, 0, 0, .3);
+}
+
+#attentionBar {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 0%;
+    background-color: #CD4E27;
+    position: absolute;
+}
+
+.attentionText{
+    color: #FFFFFF;
+    font: 18px arial;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.attentionIcon{
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 12px;
+    fill: #E5E5E5;
+}
+
+#attention{
+    height: 390px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+    background-color: #F7F7F7;
+    overflow-y: scroll;
+   box-shadow: 0 15px 20px -10px rgba(0, 0, 0, .3);
+}
+
+ #attention::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #attention::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+    #attention::-webkit-scrollbar-thumb {
+        background: #727272;
+        height: 1%;
+    }
+
+    #attention::-webkit-scrollbar-button {
+        background: #B5B5B5;
+        height: 12px;
+    }
+
+.text{
+    color: #FFFFFF;
+    font: 18px Arial;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#infoModal1{
+	width: 25vw;
+	height: 15vh;
+	margin-left: 6vw;
+	margin-top: -3.5vh;
+	background: #e5e5e5;
+	display: none;
+	font: 1.15vw arial;
+}
+
+#infoModal2{
+	width: 25vw;
+	height: 15vh;
+	margin-left: 6vw;
+	background: #e5e5e5;
+	display: none;
+	font: 1.15vw arial;
+}
+
+#infoModal3{
+	width: 25vw;
+	height: 15vh;
+	margin-left: 6vw;
+	background: #e5e5e5;
+	display: none;
+	font: 1.15vw arial;
+}
+
+#infoModal4{
+	width: 25vw;
+	height: 14vh;
+	margin-left: 6vw;
+	background: #e5e5e5;
+	display: none;
+	font: 1.15vw arial;
+}
+.message{
+	padding: 5px;
+	
+}

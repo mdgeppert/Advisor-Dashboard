@@ -1,0 +1,163 @@
+﻿#bottomLeft{
+	margin-top: 120px;
+}
+#leftPane1 {
+    width: 65%;
+    margin-top: 13vh;
+    left: 6.25%;
+    height: 24vh;
+    background: #F8F8F8;
+    color: #000000;
+    font: 12px arial;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+    border: 1px solid #B6B6B6;
+    position: fixed;
+    overflow: auto;
+}
+
+    #leftPane1::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #leftPane1::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+#leftPane1::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+#leftPane1::-webkit-scrollbar-button {
+    background: #B5B5B5;
+    height: 12px;
+}
+
+.leftCheckmarks {
+    margin-top: 10px;
+    margin-left: 10px;
+    fill: green;
+    position: fixed;
+}
+
+#leftPane2 {
+    margin-top: 38vh;
+    left: 6.25%;
+    width: 65%;
+    height: 24vh;
+    background: #F8F8F8;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+    border: 1px solid #B6B6B6;
+    position: fixed;
+    overflow: auto;
+}
+
+    #leftPane2::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #leftPane2::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+#leftPane2::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+#leftPane2::-webkit-scrollbar-button {
+    background: #B5B5B5;
+    height: 12px;
+}
+
+
+#leftPane3 {
+    margin-top: 63vh;
+    left: 6.25%;
+    width: 65%;
+    height: 24vh;
+    background: #F8F8F8;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .5);
+    border: 1px solid #B6B6B6;
+    position: fixed;
+    overflow: auto;
+}
+
+    #leftPane3::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #leftPane3::-webkit-scrollbar-track {
+        background: #CCCCCC;
+    }
+
+#leftPane3::-webkit-scrollbar-thumb {
+    background: #595959;
+}
+
+#leftPane3::-webkit-scrollbar-button {
+    background: #B5B5B5;
+    height: 12px;
+}
+
+.data{
+    font: 14px arial;
+}
+
+.dataStyles {
+    margin-top: -30px;
+    margin-left: 22px;
+    margin-bottom: 8px;
+    text-align: justify;
+    line-height: 150%;
+    font: 12px arial;
+    padding: 15px;
+    position: absolute fixed;
+}
+
+.picture {
+    margin: 30px 10px 0 35px;
+    margin-top: 35px;
+    float: left;
+    position: absolute fixed;
+}
+
+#date {
+    margin-top: 765px;
+    left: 7%;
+    height: 30px;
+    right: 64%;
+    position: fixed;
+    text-align: justify;
+}
+
+#spanDate {
+    font: 16px arial;
+    padding-right: 15px;
+    border-right: 1px solid #000000;
+    width: 75%;
+}
+
+#numReports {
+    padding-left: 15px;
+    font: 12px arial;
+}
+
+#today {
+    font: 16px arial;
+}
+
+#line{
+    top: 797px;
+    left: 40%;
+    height: 2px;
+    right: 29%;
+    position: fixed;
+    background: #000000;
+}
+
+#suggestedReports {
+    font: 12px arial;
+    margin-top: 3px;
+    width: 110px;
+    padding-left: 5px;
+    position: absolute;
+}

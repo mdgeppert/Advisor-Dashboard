@@ -1,0 +1,207 @@
+﻿/*Left Vertical Expanding Bar*/
+
+#leftbar {
+    left: 0;
+    width: 5.5%;
+    height: 100%;
+    top: 0;
+    background-color: #000000;
+    position: fixed;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#lb {
+    top: 0;
+    bottom: 0;
+    width: 220px;
+    background: #333333;
+    margin-left: -15%;
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+}
+
+#lbTitleBox {
+    height: 77px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #00698C;
+    position: absolute;
+    border-radius: 0 20px 0 0;
+}
+
+#pm {
+    margin-left: 25px;
+    margin-top: -52px;
+    color: #FFFFFF;
+    font: 18px Arial;
+}
+
+#leftBarIcon{
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+
+.iconLeft {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10%;
+    background: #000000;
+    border: none;
+    height: 60px;
+    width: 3.5vw;
+    text-align: center;
+}
+
+.iconLeft:hover {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10%;
+    border: none;
+    height: 60px;
+    width: 3.5vw;
+    text-align: center;
+    background: #E5E5E5;
+    border-radius: 30px;
+}
+
+#activeLeftIcon {
+    float: left;
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+#leftBarIconRight {
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+#lbColumnLabel {
+    color: #00698C;
+    font: 20px Arial;
+    margin-left: 30px;
+}
+
+#lbListTitle{
+    margin-top: 45px;
+    margin-left: 30px;
+    color: #00698C;
+    font: 16px arial;
+    font-variant: small-caps ;
+    font-weight: 800;
+}
+
+#lbListTitleB{
+    margin-top: 45px;
+    margin-left: 30px;
+    color: #00698C;
+    font: 16px arial;
+    font-variant: small-caps ;
+    font-weight: 800;
+}
+
+#lbListTitleB{
+    margin-top: 45px;
+    margin-left: 30px;
+    color: #00698C;
+    font: 16px arial;
+    font-variant: small-caps ;
+    font-weight: 800;
+}
+
+#lbList {
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+
+#lbList2Title {
+    font: 20px arial;
+    color: #00698C;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+#lbList2 {
+    margin-top: 95px;
+}
+
+.leftBarText {
+    margin-top: 20px;
+    margin-left: 18px;
+    font: 16px arial;
+    color: white;
+    text-decoration: none;
+}
+
+    .leftBarText:hover {
+        margin-top: 16px;
+        margin-left: 18px;
+        font: 18px arial;
+        color: white;
+        text-decoration: none;
+    }
+
+#pointer {
+    margin-top: 100px;
+    margin-right: -5px;
+    float: right;
+    fill: #FFFFFF;
+}
+
+#lowerLeft {
+    margin-top: 325px;
+    margin-left: 0;
+    width: 280px;
+    height: 408px;
+    border-radius: 0 0 16px 0;
+    background: #000000;
+    position: absolute;
+}
+
+#lowerLeftMenus {
+    margin-left: -500px;
+    height: 35px;
+    width: 275px;
+    margin-bottom: 1px;
+    text-align: left;
+    background: -webkit-linear-gradient(#FFFFFF, #ACACAC, #ACACAC);
+    border: 0;
+}
+
+    #lowerLeftMenus:hover {
+        margin-left: -500px;
+        height: 35px;
+        width: 275px;
+        margin-bottom: 1px;
+        text-align: left;
+        color: #FFFFFF;
+        background: -webkit-linear-gradient(#FFFFFF, #595959, #595959);
+        border: 0;
+    }
+
+#droppedDownMenu {
+    margin-left: 50px;
+}
+
+/*Misc*/
+
+#internal{
+    margin-right: -34%;
+    float: right;
+    color: #ff0000
+}
+
+footer {
+    margin-top: 275px;
+    height: 0;
+    width: 100%;
+    background-color: #00ffcc;
+    position: absolute;
+}

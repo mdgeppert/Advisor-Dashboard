@@ -1,0 +1,101 @@
+﻿/*Search Bar*/
+/* v2.2 */
+.branchBar {
+    position: absolute;
+    left: 5%;
+    margin-top: 110px;
+    right: 0;
+    height: 30px;
+    background-color: #474747;
+}
+
+#branchSearchHousing{
+    margin-top: 0;
+    width: 62vw;
+    height: 30px;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+.faButton{
+  
+    width: 3vw;
+    height: 16px;
+    margin-top: 6px;
+    margin-left: 58vw;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.fa {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 45vw;
+    width: 12vw;
+    height: 15px;
+    background-color: #E5E5E5;
+}
+
+#go{
+    margin-top: -7px;
+    right: 18px;
+    position: absolute;
+}
+
+.faText {
+    color: #E5E5E5;
+    margin-top: 4px;
+    margin-left: 42vw;
+	font-size: 1vw;
+    font-family: Arial;
+    float: left;
+    position: absolute;
+}
+
+.branch {
+    margin-top: 6px;
+    margin-left: 26.5vw;
+    width: 14vw;
+    height: 15px;
+    float: left;
+    background-color: #E5E5E5;
+    position: absolute;
+}
+
+.branchTitle {
+    color: #E5E5E5;
+    margin-top: 4px;
+    margin-left: 22vw;
+	font-size: 1vw;
+    font-family: Arial;
+    float: left;
+    position: absolute;
+}
+
+.subFirm{
+    width: 3vw;
+    height: 1.75vh;
+    background-color: #E5E5E5;
+    margin-top: 6px;
+    margin-left: 17vw;
+    float: left;
+    position: absolute;
+}
+
+.subFirmText{
+    margin-top: 4px;
+    margin-left: 12vw;
+	font-size: 1vw;
+    font-family: Arial;
+    color: #E5E5E5;
+    float: left;
+    position: absolute;
+}
+
+.advisorDashboard{
+    left: 0;
+    margin-top: 3px;
+    font: 1.2vw Arial;
+    color: #FFFFFF;
+    position: absolute;
+}

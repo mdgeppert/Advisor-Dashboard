@@ -1,0 +1,120 @@
+﻿html{
+    background: #E5E5E5;
+}
+
+body{
+    height: auto;
+}
+
+#everything{
+    height: 100%;
+}
+
+#content{
+    height: 100%;
+}
+
+#void{
+    float: right;
+    margin-right: 0%;
+    margin-top: -1px;
+    width: 100%;
+    height: 1px;
+}
+
+#top{
+    top: 0;
+    background: #DEDEDE
+}
+
+#wrapper1{
+    left: 0;
+    right: 0;
+    height: 80px;
+    top: 0;
+    position:  fixed;
+    background: #FFFFFF;
+}
+
+#titleBlack {
+    margin-left: 17%;
+    margin-top: 10px;
+    font-size: 32px;
+    font-family: Georgia;
+    float: left;
+    list-style-type: none;
+
+}
+
+#titleTeal {
+    margin-top: 10px;
+    font-family: Georgia;
+    float: left;
+    color: #00698C;
+    font-size: 32px;
+    margin-left: .75%;
+    list-style-type: none;
+}
+
+#topIconBar{
+     left: 65%;
+     margin-top: -1vh;
+     height: 0;
+     width: 420px;
+     padding: 20px 0 0 30px;
+     position: absolute;
+ }
+
+.icon {
+    text-align: center;
+    list-style-type: none;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.icon:hover {
+    text-align: center;
+    list-style-type: none;
+    background: #E5E5E5;
+    border: 2px solid #E5E5E5;
+    border-radius: 50px;
+}
+
+#penAndPaper{
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+#speechBubble{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#circleCheck{
+    margin-top: 2px;
+}
+#searchPop{
+    margin-left: -5%;
+    margin-top: -35px;
+    height: 30px;
+    width: 255px;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background: #CECECE;
+    position: absolute;
+}
+
+#searchForm{
+    margin-top: 4px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#searchSubmit{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -21px;
+}
+
