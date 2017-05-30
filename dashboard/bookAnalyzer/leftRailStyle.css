@@ -16,7 +16,7 @@ a:link{
 #lb {
    top: 0;
    bottom: 0;
-    width: 34vh;
+    width: 18vw;
     background: #333333;
 	margin-left: -17vw;
 	border-radius: 0 20px 20px 0 ;
@@ -25,9 +25,9 @@ a:link{
 
 #lbTitleBox {
     height: 10vh;
-    width: 34vw;
+    width: 18vw;
     margin-top: 0;
-    margin-left: -16.75vw;
+
 	background: #ED8800;
 	border-radius: 0 20px 0 0;
     position: absolute;
@@ -35,7 +35,7 @@ a:link{
 }
 
 #pm {
-    margin-left: 18.5vw;
+    margin-left: 2vw;
     margin-top: -6vh;
     color: #FFFFFF;
     font: 1.4vw Arial;
@@ -49,8 +49,7 @@ a:link{
 
 .iconLeft {
     float: left;
-    margin-top: 4px;
-    margin-left: .5vw;
+    margin-left: 1vw;
     background: #000000;
     border: none;
     height: 8vh;
@@ -60,8 +59,7 @@ a:link{
 
 .iconLeft:hover {
     float: left;
-    margin-top: 4px;
-    margin-left: 5%;
+    margin-left: 1vw;
     background: #999999;
     border: none;
     height: 8vh;
@@ -80,11 +78,12 @@ a:link{
 
 #leftBarIconRight {
     margin-top: 2.5vh;
-    margin-left: 28vw;
+    margin-left: 12vw;
 }
 
 #lbList{
-    margin-top: 75px;
+    margin-top: 14vh;
+    margin-left: -16.5vw;
     color: #FFFFFF;
 }
 

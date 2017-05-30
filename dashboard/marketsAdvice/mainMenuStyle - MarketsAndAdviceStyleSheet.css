@@ -1,0 +1,95 @@
+﻿#menuBar {
+    margin-top: 85px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    position: fixed;
+    background: #297884;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    display: inline;
+}
+
+#researchCenterText {
+    font: 24px arial;
+    width: 188px;
+    margin-top: 6px;
+    margin-left: 12%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#menuTabsBar{
+    
+    margin-left: 31%;
+    width: 50%;
+}
+
+#mainMenuTabs {
+    margin-left: 15.5vw;
+    margin-top: 14.5vh;
+    height: 5px;
+    width: 48vw;
+    position: absolute;
+}
+
+
+.inactiveMainMenuTab {
+    margin-top: -5vh;
+    background: -webkit-linear-gradient(#C8C8C8, #E5E5E5, #C8C8C8 );
+    color: #000000;
+    font: 1vw arial;
+    height: 3vh;
+    text-align: center;
+}
+
+    .inactiveMainMenuTab::selection {
+        background: #54939D;
+    }
+
+    .inactiveMainMenuTab:hover {
+       margin-top: -5vh;
+       background: -webkit-linear-gradient(#e5e5e5, #c8c8c8, #e5e5e5 );
+       color: #000000;
+       font: 1vw arial;
+       height: 3vh;
+       text-align: center;
+}
+
+#houseM {
+    padding-bottom: 8px;
+}
+
+#briefcaseM {
+    padding-bottom: 8px;
+}
+
+#inactiveMainMenuTab2 {
+    margin-top: -34px;
+    margin-left: 88%;
+    width: auto;
+    background: #297884;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 8px 0 0 0;
+}
+
+#mainMenuInput {
+    margin-left: -60px;
+    margin-top: -1px;
+    width: 180px;
+	color: #c5c5c5;
+}
+
+#mainMenuMagna {
+    margin-left: 125px;
+    margin-top: -24px;
+    position: absolute;
+}

@@ -56,26 +56,25 @@ color: #FFFFFF;
 
 .iconLeft {
     float: left;
-    margin-top: 4px;
-    margin-left: 10%;
+    margin-left: 1vw;
     background: #000000;
     border: none;
-    height: 60px;
-    width: 3.5vw;
+    height: 8vh;
+    width: 4vw;
     text-align: center;
 }
 
 .iconLeft:hover {
     float: left;
-    margin-top: 4px;
-    margin-left: 10%;
+    margin-left: 1vw;
+    background: #999999;
     border: none;
-    height: 60px;
-    width: 3.5vw;
+    height: 8vh;
+    width: 4vw;
     text-align: center;
-    background: #E5E5E5;
-    border-radius: 30px;
+	border-radius: 80px;
 }
+
 
 
 #activeLeftIcon {

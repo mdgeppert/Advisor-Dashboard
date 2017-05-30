@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     $(document).ready(function () {
         $('#lb').mouseleave(function () {
-            $('#lb').animate({ left: "-10vw" });
+            $('#lb').animate({ left: "-22vw" });
         });
     });
 });

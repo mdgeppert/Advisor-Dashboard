@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="clientInfoStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131397677280520046" remote="131397720600000000" Dst="2" />
 <file name="magnafindSearchScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131390855283095026" remote="131397683400000000" Dst="2" />
 <file name="mainMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131397682570411405" remote="131397720600000000" Dst="2" />
 <file name="scroll - clientHousehold.js" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131390855283255132" remote="131397683400000000" Dst="2" />
@@ -14,9 +13,7 @@
 <file name="index.html" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131399539571160568" remote="131399577000000000" Dst="2" />
 <file name="bottomSectionStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//clientHousehold/" local="131397699192443410" remote="131397735000000000" Dst="2" />
 <file name="bottomSectionStyleSheet - ClientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131397699192443410" remote="131400554400000000" Dst="2" />
-<file name="clientInfoStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131397677280520046" remote="131400554400000000" Dst="2" />
 <file name="filterScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com//dashboard/" local="131390855282864874" remote="131400554400000000" Dst="2" />
-<file name="index - Copy.html" server="ftp.mdgeppert.x10host.com//dashboard/" local="131397701240083680" remote="131400554400000000" Dst="2" />
 <file name="wrapperStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131400507801637513" remote="131400554400000000" Dst="2" />
 <file name="mainMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131397682570411405" remote="131400554400000000" Dst="2" />
 <file name="whiteStripStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131390855283445271" remote="131400554400000000" Dst="2" />
@@ -28,19 +25,18 @@
 <file name="index.html" server="ftp.mdgeppert.x10host.com//dashboard/" local="131400480937049820" remote="131400554400000000" Dst="2" />
 <file name="magnafindSearchScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com//dashboard/" local="131390855283095026" remote="131400554400000000" Dst="2" />
 <file name="OLDleftBarStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com//dashboard/" local="131390855282594695" remote="131400554400000000" Dst="2" />
-<file name="index - Copy.html" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131397701240083680" remote="131400558600000000" Dst="2" />
-<file name="wrapperStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131400539708347858" remote="131400575400000000" Dst="2" />
-<file name="whiteStripStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855283445271" remote="131400556800000000" Dst="2" />
-<file name="clientInfoStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131397677280520046" remote="131400556800000000" Dst="2" />
-<file name="leftBarStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131400500493045085" remote="131400556800000000" Dst="2" />
-<file name="bottomSectionStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131397699192443410" remote="131400520200000000" Dst="2" />
-<file name="subMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855283345200" remote="131400556800000000" Dst="2" />
+<file name="wrapperStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402937984122556" remote="131402973600000000" Dst="2" />
+<file name="whiteStripStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402967012900768" remote="131406444600000000" Dst="2" />
+<file name="leftBarStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131403004134350271" remote="131403040200000000" Dst="2" />
+<file name="bottomSectionStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402967012200305" remote="131406444600000000" Dst="2" />
+<file name="subMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402967012850735" remote="131406444600000000" Dst="2" />
 <file name="scroll - clientHousehold.js" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855283255132" remote="131400556800000000" Dst="2" />
-<file name="mainMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131400540757798294" remote="131400576600000000" Dst="2" />
-<file name="index.html" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131400541603049473" remote="131400577200000000" Dst="2" />
-<file name="bottomSectionStyleSheet - ClientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131397699192443410" remote="131400558600000000" Dst="2" />
+<file name="mainMenuStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402967012810704" remote="131406444600000000" Dst="2" />
+<file name="index.html" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131406409052681328" remote="131406444600000000" Dst="2" />
+<file name="bottomSectionStyleSheet - ClientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402033871502031" remote="131402070600000000" Dst="2" />
 <file name="magnafindSearchScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855283095026" remote="131400558600000000" Dst="2" />
 <file name="filterScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855282864874" remote="131400558600000000" Dst="2" />
 <file name="OLDleftBarStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855282594695" remote="131400558600000000" Dst="2" />
 <file name="leftBarScript - clientHousehold.js" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131390855282934920" remote="131400558600000000" Dst="2" />
+<file name="clientInfoStyleSheet - clientHousehold.css" server="ftp.mdgeppert.x10host.com/dashboard/clientHousehold//" local="131402967012260336" remote="131406444600000000" Dst="2" />
 </dwsync>
